@@ -1,5 +1,5 @@
 import React from "react"
-import Image from "../components/image"
+import "../styles/theme.scss"
 
 const IndexPage = () => (
   <p>Home</p>
