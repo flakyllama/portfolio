@@ -1,5 +1,8 @@
 import React from "react"
+import Image from "../components/image"
 
-export default function Home() {
-  return <div>Hello world!</div>
-}
+const IndexPage = () => (
+  <p>Home</p>
+)
+
+export default IndexPage
