@@ -1,8 +1,12 @@
-import React from "react"
-import "../styles/theme.scss"
+import React from 'react'
+import '../styles/theme.scss'
+
+import Header from '../components/header'
 
 const IndexPage = () => (
-  <p>Home</p>
+  <div>
+    <header />
+  </div>
 )
 
 export default IndexPage

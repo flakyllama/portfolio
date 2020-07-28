@@ -1,11 +1,11 @@
-{ 
+{
   "siteMetadata": {
-  "name": "fardeen-chowdhury-portfolio",
-  "private": true,
-  "description": "Fardeen Chowdhury's Portfolio",
-  "version": "0.1.0",
-  "license": "0BSD",
-  "author": "Fardeen Chowdhury"
+    "name": "fardeen-chowdhury-portfolio",
+    "private": true,
+    "description": "Fardeen Chowdhury's Portfolio",
+    "version": "0.1.0",
+    "license": "0BSD",
+    "author": "Fardeen Chowdhury"
   },
   "scripts": {
     "build": "gatsby build",
