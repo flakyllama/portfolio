@@ -3,7 +3,7 @@ import '../styles/theme.scss'
 import '../styles/header.scss'
 
 const Header = () => (
-  <header className="container">
+  <header className="innercontainer">
     <div className="nav-bar">
       <div className="logo">
         <a href='/'>Logo</a>

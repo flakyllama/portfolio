@@ -3,16 +3,35 @@
 // Breakpoints
 
 @mixin mobile-up {
-  @media (max-width: 767px) { @content; }
+  @media (max-width: 767px) {
+    .container {
+      width: 320px;
+    }
+  }
 }
+
 @mixin tablet-up {
-  @media (min-width: 768px) { @content; }
+  @media (min-width: 768px) {
+    .container {
+      width: 600px;
+    }
+  }
 }
+
 @mixin laptop-up {
-  @media (min-width: 1200px) { @content; }
+  @media (min-width: 1200px) {
+    .container {
+    width: 960px;
+    }
+  }
 }
+
 @mixin desktop-up {
-  @media (min-width: 1600px) { @content; }
+  @media (min-width: 1600px) {
+    .container {
+      width: 1440px;
+    }
+  }
 }
 
 // Fonts
@@ -38,24 +57,4 @@ html, body {
 
 .container {
   width: 1680px;
-  min-width: 1680px;
-
-  /*
-  @include desktop-up {
-    width: 1440px;
-    min-width: 1440px;
-  }
-  @include laptop-up {
-    width: 960px;
-    min-width: 960px;
-  }
-  @include tablet-up {
-    width: 600px;
-    min-width: 600px;
-  }
-  @include mobile-up {
-    width: 320px;
-    min-width: 320px;
-  }
-  */
 }

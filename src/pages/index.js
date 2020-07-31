@@ -5,7 +5,9 @@ import Header from '../components/header'
 
 
 const IndexPage = () => (
-  <Header />
+  <div className="container">
+     <Header />
+  </div>
 )
 
 export default IndexPage

@@ -3,10 +3,10 @@
 $nav-height: 80px;
 $scroll-height: 60px;
 
-.container {
+.innercontainer {
   display: flex;
   padding: 0px 120px;
-  width: 1680px;
+  width: 100%;
   top: 0;
   z-index: 10;
   height: $nav-height;
