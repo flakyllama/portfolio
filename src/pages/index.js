@@ -3,10 +3,9 @@ import '../styles/theme.scss'
 
 import Header from '../components/header'
 
+
 const IndexPage = () => (
-  <div>
-    <header />
-  </div>
+  <Header />
 )
 
 export default IndexPage
