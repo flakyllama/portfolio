@@ -5,26 +5,30 @@ $scroll-height: 60px;
 
 .innercontainer {
   display: flex;
-  padding: 0px 120px;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 10;
   height: $nav-height;
-
   pointer-events: auto;
   user-select: auto;
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   transform: translateY(0px);
 
   font-family: $font;
+  box-shadow: none;
+  background-color: $n400;
 
   .nav-bar {
     display: flex;
     justify-content: space-between;
-    z-index: 11;
+    align-items: center;
     position: relative;
+    padding: 0px 80px;
+    z-index: 11;
     width: 100%;
     counter-reset: item 0;
+    color: $n200; 
 
     .logo {
       display: flex;
@@ -43,7 +47,7 @@ $scroll-height: 60px;
 
         .list-item {
           position: relative;
-          margin: 0px 12 px;
+          margin: 0px 12px;
           font-size: $font-75;
           counter-increment: item 1;
 
@@ -51,10 +55,19 @@ $scroll-height: 60px;
             content: "0" counter(item) ".";
             text-align: right;
             font-size: $font-75;
+            font-weight: 400;
+            color: $b200;
           }
 
           .nav-bar-link {
+            text-decoration: none;
             padding: 12px 8px;
+            color: $n100;
+
+            &:hover,
+            &:focus {
+              color: $b200;
+            }
           }
         }
       }
