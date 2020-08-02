@@ -37,7 +37,6 @@ $scroll-height: 60px;
 
     .nav-links {
       display: flex;
-      align-items: center;
 
       .list {
         display: flex;
@@ -64,17 +63,36 @@ $scroll-height: 60px;
             padding: 12px 8px;
             color: $n100;
 
-            &:hover,
-            &:focus {
+            &:hover, &:focus {
               color: $b200;
             }
           }
         }
       }
+      
+      .resume-button {
+        height: 42px;
+        margin: 8px 0px 8px 12px;
+        padding: 12px 20px;
+        border: 1px solid $b200;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 
-    /*  .resume-button {
+        background-color: transparent;
+        color: $b200;
+        font-family: $font;
+        font-size: $font-75;
+        font-weight: 500;
+
+        &:hover, &:focus, &:active {
+          background-color: $b10;
+        }
+
+        &:after {
+          display: none;
+        }
       }
-      */
     }
   }
 }

@@ -23,6 +23,8 @@ const Header = () => (
           <a className="nav-bar-link" href="/other" style={{transitionDelay: 300}}>Other</a>
           </li>
         </ol>
+        <button className="resume-button" href="/resume.pdf" target="_blank">Resume
+        </button>
       </div>
     </div>
   </header>
