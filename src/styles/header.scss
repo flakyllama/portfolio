@@ -47,7 +47,7 @@ $scroll-height: 60px;
         .list-item {
           position: relative;
           margin: 0px 12px;
-          font-size: $font-75;
+          font-size: $font-200;
           counter-increment: item 1;
 
           &:before {

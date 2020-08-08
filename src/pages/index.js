@@ -8,6 +8,6 @@ const IndexPage = () => (
   <div className="container">
      <Header />
   </div>
-)
+);
 
 export default IndexPage
