@@ -1,0 +1,86 @@
+@import "global";
+
+.landing__hero {
+    margin-top: 240px;
+    margin-bottom: 224px;
+    height: 678px;
+
+    .landing__hero__title {
+        margin-top: 0px;
+        margin-bottom: 64px;
+        font-size: 72px;
+        line-height: 88px;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 0.3px;
+        text-transform: none;
+    }
+
+    .landing__hero__subheading {
+        margin-top: 0px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 0.15px;
+    }
+
+    .landing__hero__link {
+        margin-bottom: 258px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 0.15px;
+        text-decoration: none;
+    }
+
+    .landing__scroll {
+        position: relative;
+        margin: 0px auto; 
+        width: 200px;
+        height: 120px;
+        padding: 10px;
+
+        .landing__scroll__link {
+            text-decoration: none;
+
+            .landing__scroll__wording {
+                height: 24px;
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                text-align: center;
+                text-transform: uppercase;
+
+                .landing__scroll__path {
+                    position: relative;
+                    top: -37px;
+                    right: 12px;
+                    width: 224px;
+                    height: auto;
+                    fill: none;
+                    stroke: #fff;
+                    stroke-width: 1.5;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+
+                    .landing__scroll__path__rectangle {
+                        stroke-dasharray: 536;
+                        stroke-dashoffset: 536;
+                        animation-name: stroke;
+                        animation-duration: 4s;
+                        animation-timing-function: ease-in-out;
+                        animation-delay: 0s;
+                        animation-iteration-count: infinite;
+                        animation-direction: alternate-reverse;
+                        animation-fill-mode: none;
+                        animation-play-state: running;
+                    }
+                }
+            }
+        }
+    }
+}

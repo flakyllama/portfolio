@@ -1,0 +1,46 @@
+@mixin fontface($font-name, $fontface-prefix, $style, $weight) {
+  @font-face {
+    font-family: $font-name, sans-serif;
+    src:
+      local('#{$font-name}-#{$style}'),
+      local('#{$fontface-prefix}-#{$style}'),
+      local('/#{$font-name}/#{$font-name}-#{$style}'),
+      local('/#{$font-name}/#{$fontface-prefix}-#{$style}'),
+      url('/styles/fonts/#{$fontface-prefix}-#{$style}.ttf') format('truetype');
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+@mixin frankruhllibre-fontface($style, $weight) {
+  @include fontface('Frank Ruhl Libre', 'frankruhllibre', $style, $weight)
+}
+
+@include frankruhllibre-fontface('light', 300);
+@include frankruhllibre-fontface('regular', 400);
+@include frankruhllibre-fontface('medium', 500);
+@include frankruhllibre-fontface('bold', 700);
+@include frankruhllibre-fontface('black', 900);
+
+@mixin metropolis-fontface($style, $weight) {
+  @include fontface('Metropolis', 'metropolis', $style, $weight)
+}
+
+@include metropolis-fontface('thin', 100);
+@include metropolis-fontface('thin-italic', 100);
+@include metropolis-fontface('extralight', 200);
+@include metropolis-fontface('extralight-italic', 200);
+@include metropolis-fontface('light', 300);
+@include metropolis-fontface('light-italic', 300);
+@include metropolis-fontface('regular', 400);
+@include metropolis-fontface('regular-italic', 400);
+@include metropolis-fontface('medium', 500);
+@include metropolis-fontface('medium-italic', 500);
+@include metropolis-fontface('semibold', 600);
+@include metropolis-fontface('semibold-italic', 600);
+@include metropolis-fontface('bold', 700);
+@include metropolis-fontface('bold-italic', 700);
+@include metropolis-fontface('extrabold', 800);
+@include metropolis-fontface('extrabold-italic', 800);
+@include metropolis-fontface('black', 900);
+@include metropolis-fontface('black-italic', 900);
