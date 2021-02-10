@@ -7,3 +7,67 @@
         stroke-dashoffset: 0;
     }
 }
+
+.stroke {
+    animation-name: stroke;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0);
+        -webkit-transform: translate3d(0,40px,0);
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animated--fadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+@keyframes arrowBounce {
+    0% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.arrowBounce {
+    animation-name: arrowBounce;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
