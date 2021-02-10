@@ -27,7 +27,7 @@
     }
 
     .landing__hero__link {
-        margin-bottom: 258px;
+        margin-bottom: 262px;
         font-size: 16px;
         line-height: 24px;
         font-weight: 500;
@@ -70,17 +70,46 @@
                     .landing__scroll__path__rectangle {
                         stroke-dasharray: 536;
                         stroke-dashoffset: 536;
-                        animation-name: stroke;
-                        animation-duration: 4s;
-                        animation-timing-function: ease-in-out;
-                        animation-delay: 0s;
-                        animation-iteration-count: infinite;
-                        animation-direction: alternate-reverse;
-                        animation-fill-mode: none;
-                        animation-play-state: running;
                     }
                 }
             }
+        }
+    }
+}
+
+.landing__about {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    .landing__about__photo {
+        position: relative;
+        max-height: 480px;
+        max-width: 480px;
+        margin-right: 64px;
+    }
+
+    .landing__about__bio {
+        max-width: 480px;
+
+        .landing__about__bio__heading {
+            margin-bottom: 16px;
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 600;
+        }
+
+        .landing__about__bio__subheading {
+            margin-bottom: 32px;
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+
+        .landing__about__bio__description {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
         }
     }
 }
