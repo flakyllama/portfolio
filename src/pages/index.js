@@ -7,34 +7,34 @@ const Landing = () => (
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
-      <div className="landing__container">
-        <div className="landing__hero">
-          <h1 className="landing__hero__title">Fardeen Chowdhury</h1>
-          <h6 className="landing__hero__subheading">Digital product designer. Film aficionado. Tea guzzler.
+      <div className="landing_container">
+        <div className="landing_hero">
+          <p className="landing_hero_title">Fardeen Chowdhury</p>
+          <h6 className="landing_hero_subheading">Digital product designer. Film aficionado. Tea guzzler.
           <br />
           Currently designing at VendorPM in Toronto <span role="img" aria-label="canadian flag">🇨🇦</span></h6>
-          <div className="landing__hero__btn__list">
-            <a className="btn--primary" href="about.html">Learn more about me</a>
-            <a className="btn--secondary" target="_blank">View resume</a>
+          <div className="landing_hero_btn_list">
+            <a className="btn-primary" href="about.html">Learn more about me</a>
+            <a className="btn-secondary" target="_blank">View resume</a>
           </div>
-          <div className="landing__scroll">
-            <a className="landing__scroll__link" href="#about" title="Scroll to Explore">
-              <div className="landing__scroll__wording">Scroll to Explore
-                <svg className="landing__scroll__path" viewBox="0 0 182 140">
-                  <path className="landing__scroll__path__rectangle stroke" d="M91 86.2V41h90V1H1v40h82"></path>
-                  <path className="landing__scroll__path__arrow arrowBounce" d="M82.5 95.3l8.5 9.6 8.5-9.6"></path>
+          <div className="landing_scroll">
+            <a className="landing_scroll_link" href="#about" title="Scroll to Explore">
+              <div className="landing_scroll_wording">Scroll to Explore
+                <svg className="landing_scroll_path" viewBox="0 0 182 140">
+                  <path className="landing_scroll_path_rectangle stroke" d="M91 86.2V41h90V1H1v40h82"></path>
+                  <path className="landing_scroll_path_arrow arrowBounce" d="M82.5 95.3l8.5 9.6 8.5-9.6"></path>
                 </svg>
               </div>
             </a>
           </div>
         </div>
         {/*
-        <div className="landing__about" id="about">
-          <img className="landing__about__photo" src={Profile} loading="lazy" alt="headshot" />
-          <div className="landing__about__bio">
-            <h3 className="landing__about__bio__heading">Hey there! I'm Fardeen <span role="img" aria-label="waving hand">👋</span></h3>
-            <h2 className="landing__about__bio__subheading">I like to design meaningful solutions to meaningful problems.</h2>
-            <p className="landing__about__bio__description">As a product designer, I enjoy working at the intersection of ideation, design and engineering. 
+        <div className="landing_about" id="about">
+          <img className="landing_about_photo" src={Profile} loading="lazy" alt="headshot" />
+          <div className="landing_about_bio">
+            <h3 className="landing_about_bio_heading">Hey there! I'm Fardeen <span role="img" aria-label="waving hand">👋</span></h3>
+            <h2 className="landing_about_bio_subheading">I like to design meaningful solutions to meaningful problems.</h2>
+            <p className="landing_about_bio_description">As a product designer, I enjoy working at the intersection of ideation, design and engineering. 
             <br />
             <br />
             I believe that designing for systems holistically, rather than individual services, leads to great outcomes. To achieve that, I relentlessly pursue knowledge 

@@ -1,15 +1,15 @@
 @import "global";
 
-.landing__container {
+.landing_container {
     margin: auto;
     max-width: 1080px;
 
-    .landing__hero {
+    .landing_hero {
         margin-top: 240px;
         margin-bottom: 224px;
         height: 678px;
 
-        .landing__hero__title {
+        .landing_hero_title {
             margin-top: 0px;
             margin-bottom: 48px;
             font-size: 72px;
@@ -20,7 +20,7 @@
             text-transform: none;
         }
 
-        .landing__hero__subheading {
+        .landing_hero_subheading {
             margin-top: 0px;
             margin-bottom: 40px;
             font-size: 18px;
@@ -30,31 +30,31 @@
             letter-spacing: 0.15px;
         }
 
-        .landing__hero__btn__list {
+        .landing_hero_btn_list {
             display: flex;
             justify-content: center;
             margin-bottom: 264px;
 
-            .btn--primary {
+            .btn-primary {
                 margin-right: 8px;
             }
             
-            .btn--secondary {
+            .btn-secondary {
                 margin-left: 8px;
             }
         }
 
-        .landing__scroll {
+        .landing_scroll {
             position: relative;
             margin: 0px auto; 
             width: 200px;
             height: 120px;
             padding: 10px;
 
-            .landing__scroll__link {
+            .landing_scroll_link {
                 text-decoration: none;
 
-                .landing__scroll__wording {
+                .landing_scroll_wording {
                     height: 24px;
                     font-size: 16px;
                     line-height: 24px;
@@ -63,7 +63,7 @@
                     text-align: center;
                     text-transform: uppercase;
 
-                    .landing__scroll__path {
+                    .landing_scroll_path {
                         position: relative;
                         top: -37px;
                         right: 12px;
@@ -75,7 +75,7 @@
                         stroke-linecap: round;
                         stroke-linejoin: round;
 
-                        .landing__scroll__path__rectangle {
+                        .landing_scroll_path_rectangle {
                             stroke-dasharray: 536;
                             stroke-dashoffset: 536;
                         }
@@ -85,36 +85,36 @@
         }
     }
 
-    .landing__about {
+    .landing_about {
         display: flex;
         justify-content: center;
         align-items: center; 
 
-        .landing__about__photo {
+        .landing_about_photo {
             position: relative;
             max-height: 480px;
             max-width: 480px;
             margin-right: 64px;
         }
 
-        .landing__about__bio {
+        .landing_about_bio {
             max-width: 480px;
 
-            .landing__about__bio__heading {
+            .landing_about_bio_heading {
                 margin-bottom: 16px;
                 font-size: 32px;
                 line-height: 40px;
                 font-weight: 600;
             }
 
-            .landing__about__bio__subheading {
+            .landing_about_bio_subheading {
                 margin-bottom: 32px;
                 font-size: 24px;
                 line-height: 32px;
                 font-weight: 400;
             }
 
-            .landing__about__bio__description {
+            .landing_about_bio_description {
                 font-size: 16px;
                 line-height: 24px;
                 font-weight: 400;
