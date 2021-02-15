@@ -14,7 +14,7 @@ const Landing = () => (
           <br />
           Currently designing at VendorPM in Toronto <span role="img" aria-label="canadian flag">🇨🇦</span></h6>
           <div className="landing_hero_btn_list">
-            <a className="btn-primary" href="about.html">Learn more about me</a>
+            <a className="btn-primary" href="#about">Learn more about me</a>
             <a className="btn-secondary" target="_blank">View resume</a>
           </div>
           <div className="landing_scroll">

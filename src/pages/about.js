@@ -19,5 +19,4 @@ const About = () => (
     </html>
 )
 
-
 export default About
