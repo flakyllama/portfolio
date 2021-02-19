@@ -15,8 +15,13 @@ body {
 }
 
 a {
-    display: block;
-    color: $light-grey;
+    display: inline;
+    color: $blue;
+    text-decoration: none;
+
+    &:hover {
+        color: $dark-blue;
+    }
     /*
     transition-property: opacity;
     transition-duration: 200ms;
@@ -24,6 +29,10 @@ a {
     transition-delay: 0s;
     font-family: "Metropolis", sans-serif;
     */
+}
+
+.hero_image {
+    border-radius: 20px;
 }
 
 
