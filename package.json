@@ -28,8 +28,7 @@
     "smooth-scrollbar": "8.5.2"
   },
   "devDependencies": {
-    "gatsby-plugin-root-import": "^2.0.6",
-    "prettier": "2.0.5"
+    "gatsby-plugin-root-import": "^2.0.6"
   },
   "repository": {
     "type": "git",
