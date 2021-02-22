@@ -1,13 +1,36 @@
 .about_hero {
+  margin: auto;
+  max-width: 1080px;
 
-    .about_hero_title {
-        margin-top: 24px;
-        margin-bottom: 48px;
-        color: white;
+  .about_hero_title {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    color: white;
+  }
+
+  #about {
+    height: 520px;
+    margin-bottom: 80px;
+    background-image: url('../images/test.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+
+  .about_bio {
+    margin: auto;
+    max-width: 800px;
+
+    .about_bio_title {
+      margin-bottom: 24px;
     }
 
-    .about_hero_img {
-        height: 560px;
-        border-radius: 20px;
+    .about_bio_content {
+      margin-bottom: 32px;
+      font-size: 18px;
+      line-height: 1.5;
+      font-weight: 300;
+      color: white;
     }
+  }
 }
