@@ -28,7 +28,6 @@
     "smooth-scrollbar": "8.5.2"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "eslint": "^7.2.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-node": "^4.1.0",
@@ -41,9 +40,6 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "gatsby-plugin-root-import": "^2.0.6",
     "prettier": "^2.2.1"
-=======
-    "gatsby-plugin-root-import": "^2.0.6"
->>>>>>> d25e488f366af6a1f0b54afd6068b5d4c0a1f89f
   },
   "repository": {
     "type": "git",
