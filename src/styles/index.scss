@@ -2,7 +2,7 @@
 
 .landing_container {
     margin: auto;
-    max-width: 960px;
+    max-width: 1080px;
 
     .landing_hero {
         margin-top: 240px;
@@ -52,6 +52,7 @@
             padding: 10px;
 
             .landing_scroll_link {
+                color: white;
                 text-decoration: none;
 
                 .landing_scroll_wording {
