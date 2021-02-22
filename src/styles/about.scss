@@ -4,12 +4,14 @@
 
   .about_hero_title {
     margin-top: 24px;
+    margin-left: 60px;
     margin-bottom: 48px;
     color: white;
   }
 
   #about {
     height: 520px;
+    margin-top: 120px;
     margin-bottom: 80px;
     background-image: url('../images/test.jpg');
     background-size: cover;
@@ -19,7 +21,7 @@
 
   .about_bio {
     margin: auto;
-    max-width: 800px;
+    max-width: 760px;
 
     .about_bio_title {
       margin-bottom: 24px;
