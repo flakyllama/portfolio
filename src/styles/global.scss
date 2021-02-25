@@ -16,12 +16,9 @@ body {
 
 a {
   display: inline;
-  color: $blue;
+  color: white;
   text-decoration: none;
 
-  &:hover {
-    color: $dark-blue;
-  }
   /*
     transition-property: opacity;
     transition-duration: 200ms;
@@ -31,9 +28,20 @@ a {
     */
 }
 
-.hero_image {
-  width: 960px;
+p {
   margin: auto;
+  max-width: 760px;
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: white;
+}
+
+.hero_image {
+  height: 520px;
+  width: 960px;
+  margin: 120px auto 80px auto;
   border-radius: 16px;
 }
 
