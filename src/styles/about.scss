@@ -1,7 +1,6 @@
-.about_hero {
-  margin: auto;
-  max-width: 1080px;
+@import 'global';
 
+.about_hero {
   .about_hero_title {
     margin-top: 24px;
     margin-left: 60px;
@@ -9,30 +8,57 @@
     color: white;
   }
 
-  #about {
-    height: 520px;
-    margin-top: 120px;
-    margin-bottom: 80px;
+  .about_hero_image {
     background-image: url('../images/test.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left center;
   }
 
-  .about_bio {
-    margin: auto;
-    max-width: 760px;
+  .about_bio_outer {
+    overflow-x: hidden;
 
-    .about_bio_title {
-      margin-bottom: 24px;
+    .about_bio {
+      margin: auto;
+      max-width: 1080px;
+
+      .about_bio_title {
+        margin: 0 auto 24px auto;
+        max-width: 760px;
+
+        .dot-colored {
+          color: $blue;
+        }
+      }
     }
+  }
 
-    .about_bio_content {
-      margin-bottom: 32px;
-      font-size: 18px;
-      line-height: 1.5;
-      font-weight: 300;
-      color: white;
+  .about_featured {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    max-width: 1080px;
+    justify-content: center;
+
+    .about_featured_content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 760px;
+
+      .about_featured_content_title {
+        margin-bottom: 4px;
+        text-transform: uppercase;
+      }
+
+      .about_featured_content_description {
+        margin-bottom: 24px;
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: 300;
+        color: white;
+      }
     }
   }
 }
