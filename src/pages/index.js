@@ -9,8 +9,9 @@ const Landing = () => (
     <body>
       <div className="landing_container">
         <div className="landing_hero">
-          <p className="landing_hero_title">Fardeen Chowdhury</p>
-          <h6 className="landing_hero_subheading">Digital product designer. Film aficionado. Tea drinker.
+          <p className="landing_hero_title d1">Fardeen Chowdhury</p>
+          <h6 className="landing_hero_subheading">Digital product designer <span className="slash-blend">/</span> Serial reader&nbsp;
+          <span className="slash-blend">/</span> Film aficionado <span className="slash-blend">/</span> Tea drinker.
           <br />
           Currently designing at VendorPM in Toronto <span role="img" aria-label="canadian flag">&#127464;&#127462;</span></h6>
           <div className="landing_hero_btn_list">
@@ -28,24 +29,7 @@ const Landing = () => (
             </a>
           </div>
         </div>
-        {/*
-        <div className="landing_about" id="about">
-          <img className="landing_about_photo" src={Profile} loading="lazy" alt="headshot" />
-          <div className="landing_about_bio">
-            <h3 className="landing_about_bio_heading">Hey there! I'm Fardeen <span role="img" aria-label="waving hand">👋</span></h3>
-            <h2 className="landing_about_bio_subheading">I like to design meaningful solutions to meaningful problems.</h2>
-            <p className="landing_about_bio_description">As a product designer, I enjoy working at the intersection of ideation, design and engineering. 
-            <br />
-            <br />
-            I believe that designing for systems holistically, rather than individual services, leads to great outcomes. To achieve that, I relentlessly pursue knowledge 
-            from different domains, with the hopes of using all of it together to build the best products.
-            <br />
-            <br />
-            In my free time, I like to play squash, design video games, and read historical and anthropological non-fiction.</p>
-          </div>
-        </div>
-        */}
-        </div>
+      </div>
     </body>
   </html>
 )

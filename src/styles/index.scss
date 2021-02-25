@@ -12,12 +12,7 @@
     .landing_hero_title {
       margin-top: 0px;
       margin-bottom: 48px;
-      font-size: 72px;
-      line-height: 72px;
-      font-weight: 600;
       text-align: center;
-      letter-spacing: 0.3px;
-      text-transform: none;
     }
 
     .landing_hero_subheading {
@@ -28,6 +23,10 @@
       font-weight: 400;
       text-align: center;
       letter-spacing: 0.15px;
+
+      .slash-blend {
+        color: #575757;
+      }
     }
 
     .landing_hero_btn_list {

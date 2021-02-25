@@ -1,0 +1,42 @@
+.nav {
+  margin: auto;
+  max-width: 1200px;
+  background-color: transparent;
+
+  .nav-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    height: 80px;
+
+    .logo {
+      flex-grow: 1;
+      max-height: 60px;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 0.15px;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: row;
+      justify-content: flex-end;
+      font-size: 16px;
+
+      a {
+        padding: 0 24px 0 24px;
+        transition: all 0.2s ease-out;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 0.25px;
+        text-decoration: none;
+
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+  }
+}
