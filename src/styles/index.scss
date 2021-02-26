@@ -12,12 +12,7 @@
     .landing_hero_title {
       margin-top: 0px;
       margin-bottom: 48px;
-      font-size: 72px;
-      line-height: 72px;
-      font-weight: 600;
       text-align: center;
-      letter-spacing: 0.3px;
-      text-transform: none;
     }
 
     .landing_hero_subheading {
@@ -28,6 +23,10 @@
       font-weight: 400;
       text-align: center;
       letter-spacing: 0.15px;
+
+      .slash-blend {
+        color: #575757;
+      }
     }
 
     .landing_hero_btn_list {
@@ -90,43 +89,6 @@
             }
           }
         }
-      }
-    }
-  }
-
-  .landing_about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .landing_about_photo {
-      position: relative;
-      max-height: 480px;
-      max-width: 480px;
-      margin-right: 64px;
-    }
-
-    .landing_about_bio {
-      max-width: 480px;
-
-      .landing_about_bio_heading {
-        margin-bottom: 16px;
-        font-size: 32px;
-        line-height: 40px;
-        font-weight: 600;
-      }
-
-      .landing_about_bio_subheading {
-        margin-bottom: 32px;
-        font-size: 24px;
-        line-height: 32px;
-        font-weight: 400;
-      }
-
-      .landing_about_bio_description {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
       }
     }
   }

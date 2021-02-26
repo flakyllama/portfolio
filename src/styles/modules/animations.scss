@@ -11,21 +11,34 @@
   }
 }
 
-.animated {
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
   animation-duration: 1s;
   animation-fill-mode: both;
   -webkit-animation-duration: 1s;
   -webkit-animation-fill-mode: both;
 }
 
-.animated--fadeInUp {
-  opacity: 0;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
-.fadeInUp {
-  opacity: 0;
-  animation-name: fadeInUp;
-  -webkit-animation-name: fadeInUp;
+.fadeIn {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
 }
 
 // Scroll down prompt animations
@@ -44,7 +57,7 @@
   animation-name: stroke;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
-  animation-delay: 0s;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
   animation-fill-mode: none;
@@ -67,7 +80,7 @@
   animation-name: arrowBounce;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
-  animation-delay: 0s;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
   animation-fill-mode: none;

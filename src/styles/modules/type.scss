@@ -1,23 +1,37 @@
+// Display
+
+.d1 {
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 600;
+  letter-spacing: 0.45px;
+  text-transform: none;
+}
+
+// Headings
+
 h1 {
   font-size: 36px;
   line-height: 1.5;
   font-weight: 600;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.45px;
   text-transform: none;
 }
 
 h4 {
   font-size: 24px;
   line-height: 1.5;
-  font-weight: 700;
-  letter-spacing: 0.15px;
+  font-weight: 600;
+  letter-spacing: 0.225px;
   text-transform: none;
 }
 
-h6 {
-  font-size: 24px;
+// Body
+
+p {
+  font-size: 18px;
   line-height: 1.5;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 0.15px;
-  text-transform: none;
+  color: white;
 }
