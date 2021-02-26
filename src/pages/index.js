@@ -9,16 +9,16 @@ const Landing = () => (
     <body>
       <div className="landing_container">
         <div className="landing_hero">
-          <p className="landing_hero_title d1">Fardeen Chowdhury</p>
-          <h6 className="landing_hero_subheading">Digital product designer <span className="slash-blend">/</span> Serial reader&nbsp;
+          <p className="landing_hero_title d1 fadeInUp">Fardeen Chowdhury</p>
+          <h4 className="landing_hero_subheading fadeInUp">Digital product designer <span className="slash-blend">/</span> Serial reader&nbsp;
           <span className="slash-blend">/</span> Film aficionado <span className="slash-blend">/</span> Tea drinker.
           <br />
-          Currently designing at VendorPM in Toronto <span role="img" aria-label="canadian flag">&#127464;&#127462;</span></h6>
-          <div className="landing_hero_btn_list">
+          Currently designing at VendorPM in Toronto <span role="img" aria-label="canadian flag">&#x1f1e8;&#x1f1e6;</span></h4>
+          <div className="landing_hero_btn_list fadeInUp">
             <a className="btn-primary" href="about">Learn more about me</a>
             <a className="btn-secondary" target="_blank">View resume</a>
           </div>
-          <div className="landing_scroll">
+          <div className="landing_scroll fadeIn">
             <a className="landing_scroll_link" href="#about" title="Scroll to Explore">
               <div className="landing_scroll_wording">Scroll to Explore
                 <svg className="landing_scroll_path" viewBox="0 0 182 140">
