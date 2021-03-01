@@ -1,9 +1,11 @@
 import React from 'react'
 import '../styles/index.scss'
+import CanadianFlag from "../images/emojis/flag-canadian.svg"
 
 const Landing = () => (
   <html>
     <head>
+    <meta charset="UTF-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
@@ -11,11 +13,12 @@ const Landing = () => (
         <div className="landing-hero">
           <p className="landing-hero-title d1 fadeInUp">Fardeen Chowdhury</p>
           <h4 className="landing-hero-subheading fadeInUp">Digital product designer <span className="slash-blend">/</span> Serial reader&nbsp;
-          <span className="slash-blend">/</span> Film aficionado <span className="slash-blend">/</span> Tea drinker.
-          <br />
-          Currently designing at VendorPM in Toronto <span role="img" aria-label="canadian flag">&#x1f1e8;&#x1f1e6;</span></h4>
+            <span className="slash-blend">/</span> Film aficionado <span className="slash-blend">/</span> Tea drinker
+            <br />
+            Currently designing at VendorPM in Toronto <img className="emoji-flag" src={CanadianFlag} />
+          </h4>
           <div className="landing-hero-btn-list fadeInUp">
-            <a className="btn-primary" href="about">Learn more about me</a>
+            <a className="btn-primary" href="about" target="_top">Learn more about me</a>
             <a className="btn-secondary" target="_blank">View resume</a>
           </div>
           <div className="landing-scroll fadeIn">
@@ -28,8 +31,8 @@ const Landing = () => (
               </div>
             </a>
           </div>
-          <div className="landing-projects-container">
-
+          <div className="landing-project-container">
+            <div id="project-a" className="landing-project-card"></div>
           </div>
         </div>
       </div>

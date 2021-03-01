@@ -27,6 +27,12 @@
       .slash-blend {
         color: #575757;
       }
+
+      .emoji-flag {
+        position: relative;
+        top: 3px;
+        height: 18px;
+      }
     }
 
     .landing-hero-btn-list {
@@ -92,21 +98,28 @@
       }
     }
 
-    .landing-projects-container {
+    .landing-project-container {
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin-top: 120px;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 240px;
+
+      #project-a:hover {
+        box-shadow: 0px 0px 40px 10px rgba(12, 134, 233, 0.3);
+      }
 
       .landing-project-card {
         display: flex;
+        flex-grow: 1;
         flex-direction: column;
         justify-content: space-between;
         transition: all 0.35s ease-in-out;
-        margin-bottom: 16px;
-        border-radius: 16px;
+        margin-bottom: 40px;
+        border-radius: 20px;
+        width: 560px;
+        height: 560px;
         padding: 40px;
+        background-color: #0c86e9;
 
         &:hover {
           transform: scale(1.0666);

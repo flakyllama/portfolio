@@ -15,6 +15,18 @@
     background-position: left center;
   }
 
+  .fadeInUp-delay {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-fill-mode: both;
+  }
+
   .about-bio-outer {
     overflow-x: hidden;
 
