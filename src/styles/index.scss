@@ -1,21 +1,21 @@
 @import 'global';
 
-.landing_container {
+.landing-container {
   margin: auto;
   max-width: 960px;
 
-  .landing_hero {
+  .landing-hero {
     margin-top: 240px;
     margin-bottom: 224px;
     height: 678px;
 
-    .landing_hero_title {
+    .landing-hero-title {
       margin-top: 0px;
       margin-bottom: 48px;
       text-align: center;
     }
 
-    .landing_hero_subheading {
+    .landing-hero-subheading {
       margin-top: 0px;
       margin-bottom: 40px;
       font-size: 18px;
@@ -27,9 +27,15 @@
       .slash-blend {
         color: #575757;
       }
+
+      .emoji-flag {
+        position: relative;
+        top: 3px;
+        height: 18px;
+      }
     }
 
-    .landing_hero_btn_list {
+    .landing-hero-btn-list {
       display: flex;
       justify-content: center;
       margin-bottom: 264px;
@@ -51,18 +57,18 @@
       }
     }
 
-    .landing_scroll {
+    .landing-scroll {
       position: relative;
       margin: 0px auto;
       width: 200px;
       height: 120px;
       padding: 10px;
 
-      .landing_scroll_link {
+      .landing-scroll-link {
         color: white;
         text-decoration: none;
 
-        .landing_scroll_wording {
+        .landing-scroll-wording {
           height: 24px;
           font-size: 16px;
           line-height: 24px;
@@ -71,7 +77,7 @@
           text-align: center;
           text-transform: uppercase;
 
-          .landing_scroll_path {
+          .landing-scroll-path {
             position: relative;
             top: -37px;
             right: 12px;
@@ -83,9 +89,84 @@
             stroke-linecap: round;
             stroke-linejoin: round;
 
-            .landing_scroll_path_rectangle {
+            .landing-scroll-path-rectangle {
               stroke-dasharray: 536;
               stroke-dashoffset: 536;
+            }
+          }
+        }
+      }
+    }
+
+    .landing-project-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 240px;
+
+      #project-a:hover {
+        box-shadow: 0px 0px 40px 10px rgba(12, 134, 233, 0.3);
+      }
+
+      .landing-project-card {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: all 0.35s ease-in-out;
+        margin-bottom: 40px;
+        border-radius: 20px;
+        width: 560px;
+        height: 560px;
+        padding: 40px;
+        background-color: #0c86e9;
+
+        &:hover {
+          transform: scale(1.0666);
+        }
+
+        &:active {
+          transform: scale(0.85);
+        }
+
+        .landing-project-description {
+          max-width: 400px;
+
+          .landing-project-icon-device {
+            height: 40px;
+            width: 40px;
+          }
+
+          .landing-project-title {
+            margin-bottom: 8px;
+            color: white;
+          }
+
+          .landing-project-body {
+            font-size: 16px;
+            font-weight: 400;
+            color: white;
+          }
+        }
+
+        .landing-project-link {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          color: white;
+
+          .landing-project-link-text {
+            margin-right: 8px;
+            font-size: 16px;
+            font-weight: 400;
+            color: white;
+          }
+
+          .landing-project-link-arrow {
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+              transform: translateX(8px);
             }
           }
         }

@@ -26,12 +26,12 @@
       font-size: 16px;
 
       a {
-        padding: 0 24px 0 24px;
         transition: all 0.2s ease-out;
-        color: white;
+        padding: 0 24px 0 24px;
         font-weight: 400;
         letter-spacing: 0.25px;
         text-decoration: none;
+        color: white;
 
         &:hover {
           color: $blue;

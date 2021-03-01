@@ -8,15 +8,16 @@ import InlineLink from '../components/inlinelink.js'
 const About = () => (
     <html>
         <head>
+        <meta charset="UTF-8" />
         </head>
         <body>
             <NavBar />
-            <div className="about_container">
-                <div className="about_hero">
-                    <div className="hero_image about_hero_image" />
-                    <div className="about_bio_outer">
-                        <div className="about_bio">
-                            <h4 className="about_bio_title">Hey there <span role="img" aria-label="waving hand">👋</span> I'm Fardeen, a product designer from 
+            <div className="about-container">
+                <div className="about-hero">
+                    <div className="hero-image about-hero-image fadeInUp" />
+                    <div className="about-bio-outer fadeInUp-delay">
+                        <div className="about-bio">
+                            <h4 className="about-bio-title">Hey there <span role="img" aria-label="waving hand">👋</span> I'm Fardeen, a product designer from 
                                 Toronto<span className="dot-colored">.</span></h4>
                             <p>Ever since I was a child, I had an insatiable hunger for knowledge. I wanted to learn everything about everything and nothing could 
                                 stop me. I can still recall the nights I was under the blankets, perched over encyclopedias with a flashlight in my hand.</p>
