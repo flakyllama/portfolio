@@ -17,29 +17,20 @@ body {
 
 a {
   display: inline;
-  color: white;
   text-decoration: none;
-
-  /*
-    transition-property: opacity;
-    transition-duration: 200ms;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    font-family: "Metropolis", sans-serif;
-    */
+  color: white;
 }
 
 p {
-  margin: auto;
+  margin: 0 auto 32px auto;
   max-width: 760px;
-  margin-bottom: 32px;
 }
 
-.hero_image {
-  height: 520px;
-  width: 960px;
+.hero-image {
   margin: 80px auto;
   border-radius: 16px;
+  height: 520px;
+  width: 960px;
 }
 
 .dot-colored {
