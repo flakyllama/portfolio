@@ -10,11 +10,13 @@
   background-color: white;
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 500;
   text-decoration: none;
   color: $black;
 
   &:hover {
-    background-color: $light-grey;
+    color: $off-white;
+    background-color: $blue;
   }
 
   // Tactile interaction on click
@@ -30,17 +32,18 @@
   display: flex;
   align-items: center;
   transition: all 0.2s ease-in-out;
-  border: 2px solid $grey;
+  border: 2px solid $blue;
   border-radius: 6px;
   padding: 12px 24px;
   background-color: none;
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 500;
   text-decoration: none;
-  color: white;
+  color: $blue;
 
   &:hover {
-    background-color: rgba(255, 255, 255, 0.22);
+    background-color: $blue-tint;
   }
 
   &:active {
