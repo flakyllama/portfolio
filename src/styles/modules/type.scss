@@ -1,4 +1,5 @@
 // Display
+//----------------------------------------
 
 .d1 {
   font-size: 72px;
@@ -8,11 +9,20 @@
   text-transform: none;
 }
 
+.d3 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: none;
+}
+
 // Headings
+//----------------------------------------
 
 h1 {
   font-size: 36px;
-  line-height: 1.5;
+  line-height: 1.3;
   font-weight: 600;
   letter-spacing: 0.45px;
   text-transform: none;
@@ -20,13 +30,22 @@ h1 {
 
 h4 {
   font-size: 24px;
-  line-height: 1.5;
+  line-height: 1.3;
   font-weight: 600;
   letter-spacing: 0.225px;
   text-transform: none;
 }
 
+h6 {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  text-transform: none;
+}
+
 // Body
+//----------------------------------------
 
 p {
   font-size: 18px;

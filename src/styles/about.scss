@@ -1,43 +1,46 @@
 @import 'global';
 
-.about-hero {
-  .about-hero-title {
-    margin-top: 24px;
-    margin-left: 60px;
-    margin-bottom: 48px;
-    color: white;
-  }
+// Hero section
+//----------------------------------------
 
+.about-hero {
   .about-hero-image {
     background-image: url('../images/test.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left center;
   }
+}
 
-  .fadeInUp-delay {
-    opacity: 0;
-    animation-name: fadeInUp;
-    -webkit-animation-name: fadeInUp;
-    animation-duration: 1s;
-    animation-delay: 1s;
-    animation-fill-mode: both;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 1s;
-    -webkit-animation-fill-mode: both;
-  }
+// Content section
+//----------------------------------------
 
-  .about-bio-outer {
-    overflow-x: hidden;
+.about-bio-container {
+  overflow-x: hidden;
+  margin-bottom: 240px;
 
-    .about-bio {
-      margin: auto;
-      max-width: 1080px;
+  .about-bio-content {
+    margin: auto;
+    max-width: 1080px;
 
-      .about-bio-title {
-        margin: 0 auto 24px auto;
-        max-width: 760px;
-      }
+    .about-bio-title {
+      margin: 0 auto 24px auto;
+      max-width: 760px;
     }
   }
+}
+
+// Animation modifications
+//----------------------------------------
+
+.fadeInUp-delay {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-fill-mode: both;
 }

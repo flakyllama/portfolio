@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/index.scss'
-import CanadianFlag from "../images/emojis/flag-canadian.svg"
+import Footer from '../components/footer.js'
+import CanadianFlag from '../images/emojis/flag-canadian.svg'
 
 const Landing = () => (
   <html>
@@ -10,13 +11,13 @@ const Landing = () => (
     </head>
     <body>
       <div className="landing-container">
-        <div className="landing-hero">
+        <section className="landing-hero">
           <p className="landing-hero-title d1 fadeInUp">Fardeen Chowdhury</p>
-          <h4 className="landing-hero-subheading fadeInUp">Digital product designer <span className="slash-blend">/</span> Serial reader&nbsp;
+          <h6 className="landing-hero-subheading fadeInUp">Digital product designer <span className="slash-blend">/</span> Serial reader&nbsp;
             <span className="slash-blend">/</span> Film aficionado <span className="slash-blend">/</span> Tea drinker
             <br />
             Currently designing at VendorPM in Toronto <img className="emoji-flag" src={CanadianFlag} />
-          </h4>
+          </h6>
           <div className="landing-hero-btn-list fadeInUp">
             <a className="btn-primary" href="about" target="_top">Learn more about me</a>
             <a className="btn-secondary" target="_blank">View resume</a>
@@ -31,10 +32,17 @@ const Landing = () => (
               </div>
             </a>
           </div>
-          <div className="landing-project-container">
+        </section>
+        <section className="landing-project-container">
             <div id="project-a" className="landing-project-card"></div>
-          </div>
-        </div>
+        </section>
+        <section className="landing-contact-container">
+          <p className="landing-contact-title d3 fadeInUp">Get in touch</p>
+          <p className="landing-contact-subheading">Feel free to reach out for collaborations or a quick chat; my inbox is always open. While 
+          I may not be an expert email juggler, I'll try my best to get back to you!</p>
+          <a className="btn-secondary" href="mailto:fardeen.h.chowdhury@gmail.com" target="_blank">Say Hello</a>
+        </section>
+        <Footer />
       </div>
     </body>
   </html>

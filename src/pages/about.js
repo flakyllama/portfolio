@@ -3,6 +3,7 @@ import '../styles/global.scss'
 import '../styles/about.scss'
 import '../components/navbar.js'
 import NavBar from '../components/navbar.js'
+import Footer from '../components/footer.js'
 import InlineLink from '../components/inlinelink.js'
 
 const About = () => (
@@ -13,10 +14,11 @@ const About = () => (
         <body>
             <NavBar />
             <div className="about-container">
-                <div className="about-hero">
+                <section className="about-hero">
                     <div className="hero-image about-hero-image fadeInUp" />
-                    <div className="about-bio-outer fadeInUp-delay">
-                        <div className="about-bio">
+                </section>
+                <section className="about-bio-container fadeInUp-delay">
+                        <div className="about-bio-content">
                             <h4 className="about-bio-title">Hey there <span role="img" aria-label="waving hand">👋</span> I'm Fardeen, a product designer from 
                                 Toronto<span className="dot-colored">.</span></h4>
                             <p>Ever since I was a child, I had an insatiable hunger for knowledge. I wanted to learn everything about everything and nothing could 
@@ -40,9 +42,9 @@ const About = () => (
                                 love; I'd never pass on the opportunity to pick up popcorn and binge through a couple of movies. I also enjoy playing squash 
                                 with friends and figuring out how my camera works.</p>
                         </div>
-                    </div>
-                </div>
+                    </section>
             </div>
+            <Footer />
         </body>
     </html>
 )

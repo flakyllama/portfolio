@@ -17,7 +17,7 @@ const NavBar = () => {
                     <a href="mailto:fardeen.h.chowdhury@gmail.com">Contact</a>
                 </div>
             </div>
-      </header>
+        </header>
     )
 }
 
