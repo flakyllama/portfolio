@@ -55,9 +55,20 @@
       height: 120px;
       padding: 10px;
 
+      &:hover {
+        .landing-scroll-link {
+          color: $blue;
+
+          .landing-scroll-wording .landing-scroll-path {
+            stroke: $blue;
+          }
+        }
+      }
+
       .landing-scroll-link {
-        color: white;
+        transition: all 0.15s ease-in-out;
         text-decoration: none;
+        color: white;
 
         .landing-scroll-wording {
           height: 24px;
@@ -70,15 +81,16 @@
 
           .landing-scroll-path {
             position: relative;
+            transition: all 0.2s ease-in-out;
             top: -37px;
             right: 12px;
-            width: 224px;
-            height: auto;
-            fill: none;
             stroke: #fff;
             stroke-width: 1.5;
             stroke-linecap: round;
             stroke-linejoin: round;
+            fill: none;
+            width: 224px;
+            height: auto;
 
             .landing-scroll-path-rectangle {
               stroke-dasharray: 536;
@@ -117,7 +129,11 @@
       background-color: #0c86e9;
 
       &:hover {
-        transform: scale(1.0666);
+        transform: scale(1.04);
+
+        .landing-project-link-arrow {
+          transform: translateX(8px);
+        }
       }
 
       &:active {
@@ -128,40 +144,39 @@
         max-width: 400px;
 
         .landing-project-icon-device {
-          height: 40px;
-          width: 40px;
+          width: 64px;
+          height: 64px;
         }
 
         .landing-project-title {
+          margin-top: 16px;
           margin-bottom: 8px;
           color: white;
         }
 
         .landing-project-body {
-          font-size: 16px;
-          font-weight: 400;
-          color: white;
-        }
-      }
-
-      .landing-project-link {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        color: white;
-
-        .landing-project-link-text {
-          margin-right: 8px;
-          font-size: 16px;
+          font-size: 18px;
           font-weight: 400;
           color: white;
         }
 
-        .landing-project-link-arrow {
-          transition: transform 0.3s ease-in-out;
+        .landing-project-link {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          color: white;
 
-          &:hover {
-            transform: translateX(8px);
+          .landing-project-link-text {
+            margin-left: 0px;
+            margin-bottom: 0px;
+            margin-right: 8px;
+            font-size: 18px;
+            font-weight: 400;
+            color: white;
+          }
+
+          .landing-project-link-arrow {
+            transition: transform 0.3s ease-in-out;
           }
         }
       }

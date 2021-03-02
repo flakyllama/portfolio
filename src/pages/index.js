@@ -2,6 +2,8 @@ import React from 'react'
 import '../styles/index.scss'
 import Footer from '../components/footer.js'
 import CanadianFlag from '../images/emojis/flag-canadian.svg'
+import ArrowRight from '../images/icons/arrow-right.svg'
+import IconDesktop from '../images/icons/desktop.png'
 
 const Landing = () => (
   <html>
@@ -23,7 +25,7 @@ const Landing = () => (
             <a className="btn-secondary" target="_blank">View resume</a>
           </div>
           <div className="landing-scroll fadeIn">
-            <a className="landing-scroll-link" href="#about" title="Scroll to Explore">
+            <a className="landing-scroll-link" href="#projects" title="Scroll to Explore">
               <div className="landing-scroll-wording">Scroll to Explore
                 <svg className="landing-scroll-path" viewBox="0 0 182 140">
                   <path className="landing-scroll-path-rectangle stroke" d="M91 86.2V41h90V1H1v40h82"></path>
@@ -33,12 +35,22 @@ const Landing = () => (
             </a>
           </div>
         </section>
-        <section className="landing-project-container">
-            <div id="project-a" className="landing-project-card"></div>
+        <section id="projects" className="landing-project-container">
+            <div id="project-a" className="landing-project-card">
+              <div className="landing-project-description">
+                <img className="landing-project-icon-device" src={IconDesktop} />
+                <h1 className="landing-project-title">Novuum</h1>
+                <p className="landing-project-body">Simplify the incorporation process for charities/non-profits in North America.</p>
+                <a className="landing-project-link">
+                  <p className="landing-project-link-text">Learn more</p>
+                  <img className="landing-project-link-arrow" src={ArrowRight} alt="right arrow" />
+                </a>
+              </div>
+            </div>
         </section>
         <section className="landing-contact-container">
           <p className="landing-contact-title d3 fadeInUp">Get in touch</p>
-          <p className="landing-contact-subheading">Feel free to reach out for collaborations or a quick chat; my inbox is always open. While 
+          <p className="landing-contact-subheading">Feel free to reach out for collaborations or a quick chat - my inbox is always open. While 
           I may not be an expert email juggler, I'll try my best to get back to you!</p>
           <a className="btn-secondary" href="mailto:fardeen.h.chowdhury@gmail.com" target="_blank">Say Hello</a>
         </section>
