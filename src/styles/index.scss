@@ -55,6 +55,16 @@
       height: 120px;
       padding: 10px;
 
+      &:hover {
+        .landing-scroll-link {
+          color: $blue;
+
+          .landing-scroll-wording .landing-scroll-path {
+            stroke: $blue;
+          }
+        }
+      }
+
       .landing-scroll-link {
         color: white;
         text-decoration: none;
@@ -117,7 +127,11 @@
       background-color: #0c86e9;
 
       &:hover {
-        transform: scale(1.0666);
+        transform: scale(1.04);
+
+        .landing-project-link-arrow {
+          transform: translateX(8px);
+        }
       }
 
       &:active {
@@ -138,30 +152,28 @@
         }
 
         .landing-project-body {
-          font-size: 16px;
-          font-weight: 400;
-          color: white;
-        }
-      }
-
-      .landing-project-link {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        color: white;
-
-        .landing-project-link-text {
-          margin-right: 8px;
-          font-size: 16px;
+          font-size: 18px;
           font-weight: 400;
           color: white;
         }
 
-        .landing-project-link-arrow {
-          transition: transform 0.3s ease-in-out;
+        .landing-project-link {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          color: white;
 
-          &:hover {
-            transform: translateX(8px);
+          .landing-project-link-text {
+            margin-left: 0px;
+            margin-bottom: 0px;
+            margin-right: 8px;
+            font-size: 18px;
+            font-weight: 400;
+            color: white;
+          }
+
+          .landing-project-link-arrow {
+            transition: transform 0.3s ease-in-out;
           }
         }
       }
