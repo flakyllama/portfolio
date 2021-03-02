@@ -3,6 +3,7 @@ import '../styles/index.scss'
 import Footer from '../components/footer.js'
 import CanadianFlag from '../images/emojis/flag-canadian.svg'
 import ArrowRight from '../images/icons/arrow-right.svg'
+import IconDesktop from '../images/icons/desktop.png'
 
 const Landing = () => (
   <html>
@@ -37,6 +38,7 @@ const Landing = () => (
         <section id="projects" className="landing-project-container">
             <div id="project-a" className="landing-project-card">
               <div className="landing-project-description">
+                <img className="landing-project-icon-device" src={IconDesktop} />
                 <h1 className="landing-project-title">Novuum</h1>
                 <p className="landing-project-body">Simplify the incorporation process for charities/non-profits in North America.</p>
                 <a className="landing-project-link">

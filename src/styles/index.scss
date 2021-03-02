@@ -66,8 +66,9 @@
       }
 
       .landing-scroll-link {
-        color: white;
+        transition: all 0.15s ease-in-out;
         text-decoration: none;
+        color: white;
 
         .landing-scroll-wording {
           height: 24px;
@@ -80,15 +81,16 @@
 
           .landing-scroll-path {
             position: relative;
+            transition: all 0.2s ease-in-out;
             top: -37px;
             right: 12px;
-            width: 224px;
-            height: auto;
-            fill: none;
             stroke: #fff;
             stroke-width: 1.5;
             stroke-linecap: round;
             stroke-linejoin: round;
+            fill: none;
+            width: 224px;
+            height: auto;
 
             .landing-scroll-path-rectangle {
               stroke-dasharray: 536;
@@ -142,11 +144,12 @@
         max-width: 400px;
 
         .landing-project-icon-device {
-          height: 40px;
-          width: 40px;
+          width: 64px;
+          height: 64px;
         }
 
         .landing-project-title {
+          margin-top: 16px;
           margin-bottom: 8px;
           color: white;
         }
