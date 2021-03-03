@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/global.scss'
 import '../styles/about.scss'
-import '../components/navbar.js'
 import NavBar from '../components/navbar.js'
 import Footer from '../components/footer.js'
 import InlineLink from '../components/inlinelink.js'

@@ -1,0 +1,78 @@
+@import 'global';
+
+// Hero section
+//----------------------------------------
+
+.project-hero {
+  .project-hero-image {
+    background-image: url('../images/test.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+}
+
+// Content section
+//----------------------------------------
+
+.project-container {
+  overflow-x: hidden;
+  margin-bottom: 240px;
+
+  .project-content {
+    margin: auto;
+    max-width: 960px;
+
+    .project-intro {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0px;
+      margin-bottom: 120px;
+
+      .project-summary {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 80px;
+        width: 50%;
+        text-align: left;
+
+        .project-title {
+          margin-top: 0px;
+          margin-bottom: 16px;
+        }
+
+        .project-specializations {
+          margin-bottom: 24px;
+          text-transform: uppercase;
+          color: $grey;
+        }
+
+        .project-description {
+          margin-bottom: 0px;
+        }
+      }
+
+      .project-overview {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 80px;
+        width: 30%;
+
+        .project-overview-item {
+          margin-bottom: 32px;
+
+          .project-overview-item-title {
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            color: $grey;
+          }
+
+          .project-overview-item-subtitle {
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+}

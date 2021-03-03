@@ -129,7 +129,7 @@
       background-color: #0c86e9;
 
       &:hover {
-        transform: scale(1.04);
+        transform: scale(1.05);
 
         .landing-project-link-arrow {
           transform: translateX(8px);
@@ -189,7 +189,6 @@
   .landing-contact-container {
     margin-top: 240px;
     margin-bottom: 240px;
-    height: 339px;
     text-align: center;
 
     .landing-contact-title {

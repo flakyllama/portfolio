@@ -36,7 +36,7 @@ const Landing = () => (
           </div>
         </section>
         <section id="projects" className="landing-project-container">
-            <div id="project-a" className="landing-project-card">
+            <a id="project-a" className="landing-project-card" href="project">
               <div className="landing-project-description">
                 <img className="landing-project-icon-device" src={IconDesktop} />
                 <h1 className="landing-project-title">Novuum</h1>
@@ -46,7 +46,7 @@ const Landing = () => (
                   <img className="landing-project-link-arrow" src={ArrowRight} alt="right arrow" />
                 </a>
               </div>
-            </div>
+            </a>
         </section>
         <section className="landing-contact-container">
           <p className="landing-contact-title d3 fadeInUp">Get in touch</p>
