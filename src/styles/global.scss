@@ -18,12 +18,11 @@ body {
 a {
   display: inline;
   text-decoration: none;
-  color: white;
+  color: $light-grey;
 }
 
 p {
   margin: 0 auto 32px auto;
-  max-width: 760px;
 }
 
 .hero-image {

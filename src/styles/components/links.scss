@@ -15,7 +15,7 @@
       color: $blue;
     }
 
-    .link_inline_tail {
+    .link-inline-tail {
       opacity: 1;
       background-color: $blue;
     }
@@ -27,16 +27,16 @@
     text-decoration: none;
   }
 
-  .line-link {
+  .link-inline-line {
     position: absolute;
     top: 20px;
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: white;
+    background-color: $light-grey;
   }
 
-  .link_inline_tail {
+  .link-inline-tail {
     position: absolute;
     top: 20px;
     left: 0;
@@ -77,5 +77,39 @@
         background-color: $dark-black;
       }
     }
+  }
+}
+
+// Standalone link
+//----------------------------------------
+
+.link-standalone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &:hover {
+    .link-standalone-text {
+      color: $blue;
+    }
+
+    .link-standalone-arrow {
+      filter: invert(0.5) sepia(1) saturate(24.5) hue-rotate(184deg)
+        brightness(96%) contrast(100%);
+      transform: translateX(8px);
+    }
+  }
+
+  .link-standalone-text {
+    transition: transform 0.3s ease-in-out;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .link-standalone-arrow {
+    transition: transform 0.3s ease-in-out;
   }
 }

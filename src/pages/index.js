@@ -36,17 +36,17 @@ const Landing = () => (
           </div>
         </section>
         <section id="projects" className="landing-project-container">
-            <div id="project-a" className="landing-project-card">
+            <a id="project-a" className="landing-project-card" href="project">
               <div className="landing-project-description">
                 <img className="landing-project-icon-device" src={IconDesktop} />
                 <h1 className="landing-project-title">Novuum</h1>
-                <p className="landing-project-body">Simplify the incorporation process for charities/non-profits in North America.</p>
+                <p className="landing-project-body">Exploring how Canadian non-profits can register for charitable status more efficiently.</p>
                 <a className="landing-project-link">
                   <p className="landing-project-link-text">Learn more</p>
                   <img className="landing-project-link-arrow" src={ArrowRight} alt="right arrow" />
                 </a>
               </div>
-            </div>
+            </a>
         </section>
         <section className="landing-contact-container">
           <p className="landing-contact-title d3 fadeInUp">Get in touch</p>
