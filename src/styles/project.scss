@@ -5,6 +5,8 @@
 
 .project-hero {
   .project-hero-image {
+    width: 1080px;
+    height: 720px;
     background-image: url('../images/test.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,15 +21,15 @@
   overflow-x: hidden;
   margin-bottom: 240px;
 
-  .project-content {
+  .project-summary {
     margin: auto;
     max-width: 960px;
+    margin-bottom: 80px;
 
     .project-intro {
       display: flex;
       justify-content: space-between;
       margin-top: 0px;
-      margin-bottom: 120px;
 
       .project-summary {
         margin-top: 0px;
@@ -37,7 +39,6 @@
         text-align: left;
 
         .project-title {
-          margin-top: 0px;
           margin-bottom: 16px;
         }
 
@@ -75,4 +76,41 @@
       }
     }
   }
+
+  // Write-up section
+  //----------------------------------------
+
+  .project-content {
+    margin: 0 auto;
+    max-width: 760px;
+
+    .project-section-details {
+      margin-bottom: 24px;
+
+      .project-section-title {
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        color: $grey;
+      }
+
+      .project-section-subtitle {
+        text-transform: uppercase;
+      }
+    }
+
+    .project-section-text {
+      margin-bottom: 120px;
+
+      .project-section-text-body {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+
+// Section divider
+//----------------------------------------
+
+.divider-horizontal-lg {
+  margin-bottom: 120px;
 }

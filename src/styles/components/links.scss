@@ -89,12 +89,19 @@
   align-items: center;
 
   &:hover {
+    .link-standalone-text {
+      color: $blue;
+    }
+
     .link-standalone-arrow {
+      filter: invert(0.5) sepia(1) saturate(24.5) hue-rotate(184deg)
+        brightness(96%) contrast(100%);
       transform: translateX(8px);
     }
   }
 
   .link-standalone-text {
+    transition: transform 0.3s ease-in-out;
     margin-left: 0px;
     margin-bottom: 0px;
     margin-right: 8px;

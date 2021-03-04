@@ -40,7 +40,7 @@ const Landing = () => (
               <div className="landing-project-description">
                 <img className="landing-project-icon-device" src={IconDesktop} />
                 <h1 className="landing-project-title">Novuum</h1>
-                <p className="landing-project-body">Simplify the incorporation process for charities/non-profits in North America.</p>
+                <p className="landing-project-body">Exploring how Canadian non-profits can register for charitable status more efficiently.</p>
                 <a className="landing-project-link">
                   <p className="landing-project-link-text">Learn more</p>
                   <img className="landing-project-link-arrow" src={ArrowRight} alt="right arrow" />

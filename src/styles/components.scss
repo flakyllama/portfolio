@@ -6,9 +6,10 @@
 // Dividers
 //----------------------------------------
 
-.divider-horizontal-md {
+.divider-horizontal-lg {
   margin: 0 auto 120px auto;
-  width: 960px;
-  height: 1px;
+  border-radius: 20px;
+  width: 1080px;
+  height: 1.5px;
   background-color: $dark-grey;
 }
