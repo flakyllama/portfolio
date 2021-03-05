@@ -13,3 +13,14 @@
   height: 1.5px;
   background-color: $dark-grey;
 }
+
+// Images
+//----------------------------------------
+
+.project-image-lg {
+  display: block;
+  margin: 0 auto 120px auto;
+  border-radius: 16px;
+  max-width: 1120px;
+  max-height: 840px;
+}

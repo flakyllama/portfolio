@@ -36,7 +36,7 @@ const Landing = () => (
           </div>
         </section>
         <section id="projects" className="landing-project-container">
-            <a id="project-a" className="landing-project-card" href="project">
+            <a id="project-a" className="landing-project-card" href="novuum">
               <div className="landing-project-description">
                 <img className="landing-project-icon-device" src={IconDesktop} />
                 <h1 className="landing-project-title">Novuum</h1>

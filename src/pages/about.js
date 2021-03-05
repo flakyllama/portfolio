@@ -31,12 +31,12 @@ const About = () => (
                                 <p>Studying science taught me to be analytical and purposeful with my process and while it wasn't clear immediately, it also 
                                     introduced me to the world of design. Hours of learning about biological principles, such as&nbsp;
                                     <InlineLink link="https://www.cracked.com/article_20368_the-6-coolest-survival-traits-designed-by-evolution.html" 
-                                    link_text="how evolution guides complexity" destination="cracked.com" />, led to an appreciation for design in its most natural form.</p>
-                                <p>As a product designer, I enjoy working at the intersection of ideation, design and engineering. I believe that designing for systems
-                                    holistically leads to great outcomes. Developing good product sense as a principle designer at both&nbsp; 
-                                    <InlineLink link="https://prospr.cc/" link_text="my startup" destination="prospr.cc" /> and my recent stint at&nbsp; 
-                                    <InlineLink link="https://vendorpm.com/" link_text="VendorPM" destination="vendorpm.com" /> has taught me how to properly balance 
-                                    business objectives and engineering constraints as I relentlessly champion the user.</p>
+                                    link_text="evolution guiding complexity" destination="cracked.com" />, led to an appreciation for design in its most natural form.</p>
+                                <p>As a product designer, I enjoy working at the intersection of ideation, design and engineering. The drive to explore new frontiers and 
+                                    design for systems holistically, especially for social good, manifests as a common thread in my work. Developing good product sense as a 
+                                    principle designer at both&nbsp;<InlineLink link="https://prospr.cc/" link_text="my startup" destination="prospr.cc" /> and my most 
+                                    recent stint at&nbsp;<InlineLink link="https://vendorpm.com/" link_text="VendorPM" destination="vendorpm.com" /> taught me how to do so 
+                                    while also balancing business objectives and engineering constraints as I relentlessly champion the user.</p>
                                 <p>My eagerness for novelty also extends to my hobbies. In my free time, I like to read non-fiction, especially on history and 
                                     anthropology. The past fascinates me, with books sharing the experiences of others throughout time. Watching films is my second 
                                     love; I'd never pass on the opportunity to pick up popcorn and binge through a couple of movies. I also enjoy playing squash 
