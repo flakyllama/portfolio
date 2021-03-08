@@ -58,18 +58,17 @@ const ProjectPage = () => (
                         <p className="project-section-title s1">The problem</p>
                         <h3 className="project-section-subtitle">Old Conclusions</h3>
                     </div>
-                    <div id="par1" className="project-section-text">
-                        <p className="project-section-text-body">The inspiration for Novuum started a couple of years ago during my tenure at a grant committee at 
-                            my university. The committee was tasked with distributing funding to student-run non-profits on campus. 
+                    <div className="project-section-text">
+                        <p className="project-section-text-body">The inspiration for Novuum started a few years ago during my tenure at a university grant 
+                            committee that distributed funding to student-run nonprofits on campus. 
                             <br />
                             <br />
-                            A common question tended to pop up with every application - is the non-profit a registered charity and if not, how can it become
-                            one? The committee, along with most of the non-profits, struggled to answer the question. We didn’t even know where to start looking 
-                            for the required information to initiate the process.
+                            A common question tended to pop up with every application - is the nonprofit a registered charity and if not, how can it become
+                            one? The committee, along with most of the applicants themselves, struggled to answer it.
                             <br />
                             <br />
-                            Multiple conversations with non-profit founders since then uncovered that not only was the registration process extremely laborious, 
-                            but that it was frustrating and difficult to find all relevant information to even get started.
+                            Since then, numerous conversations with nonprofit founders uncovered that not only was the registration process extremely laborious, 
+                            but that it was frustrating and difficult to find all the relevant information to even get started.
                         </p>
                     </div>
                 </section>
@@ -79,42 +78,63 @@ const ProjectPage = () => (
                         <p className="project-section-title s1">The challenge</p>
                         <h3 className="project-section-subtitle">New Beginnings</h3>
                     </div>
-                    <div id="par2" className="project-section-text mgb-80">
+                    <div className="project-section-text mgb-80">
                         <p className="project-section-text-body">Revamping the entire registration process for charities would have been an impossible endeavor. 
                             As with most projects, the problem scope had to be small enough to investigate with minimal effort yet provide maximal impact when 
                             addressed. 
                         </p>
                     </div>
                     <div className="project-section-details">
-                        <h3 className="project-section-subtitle">Filler Text</h3>
+                        <h3 className="project-section-subtitle">Defining project constraints</h3>
                     </div>
-                    <div id="par3" className="project-section-text">
+                    <div className="project-section-text">
                         <p className="project-section-text-body">Filler text
                         </p>
                     </div>
                 </section>
-                    <section id="defining-research" className="project-content">
+                <img className="project-image-lg" src={Novuum1} />
+                <section id="gathering data" className="project-content">
                     <div className="project-section-details">
-                        <p className="project-section-title s1">Defining research direction</p>
-                        <h3 className="project-section-subtitle">Understanding my assumptions</h3>
+                        <p className="project-section-title s1">Gathering data</p>
+                        <h3 className="project-section-subtitle">Understanding assumptions</h3>
                     </div>
-                    <div id="par4" className="project-section-text mgb-80">
+                    <div className="project-section-text mgb-80">
                         <p className="project-section-text-body">Using a First Principles approach, I broke down the assumed problem into an overarching hypothesis.
                             <br />
                             <br />
-                            <blockquote className="project-section-text-blockquote">“Prospective charity founders need to register their organizations to conduct 
-                            operations in Canada and know how to do so”.</blockquote>
+                            <blockquote className="project-section-text-blockquote">“Prospective founders need to register their charities to conduct operations in 
+                            Canada and can...”.</blockquote>
                             <br />
                             The core statement was then further split into its root assumptions: 
                             <ol>
-                                <li>People want to create and register a charity in Canada.</li>
-                                <li>They know the differences between a non-profit and a registered charity.</li>
-                                <li>They need to register to receive certain benefits and distribute tax receipts.</li>
-                                <li>They understand the requirements for registration.</li>
+                                <li>People know the difference between nonprofits and registered charities in Canada.</li>
+                                <li>They want to register a charity to receive benefits and distribute tax receipts.</li>
+                                <li>They understand the requirements for registering a charity.</li>
+                                <li>They can successfully create a registered charity with minimal effort.</li>
+                            </ol>
+                        </p>
+                    </div>
+                    <div className="project-section-details">
+                        <h3 className="project-section-subtitle">First Insights</h3>
+                    </div>
+                    <div className="project-section-text">
+                        <p className="project-section-text-body">Using a First Principles approach, I broke down the assumed problem into an overarching hypothesis.
+                            <br />
+                            <br />
+                            <blockquote className="project-section-text-blockquote">“Prospective founders need to register their charities to conduct operations in 
+                            Canada and can...”.</blockquote>
+                            <br />
+                            The core statement was then further split into its root assumptions: 
+                            <ol>
+                                <li>People know the difference between nonprofits and registered charities in Canada.</li>
+                                <li>They want to register a charity to receive benefits and distribute tax receipts.</li>
+                                <li>They understand the requirements for registering a charity.</li>
+                                <li>They can successfully create a registered charity with minimal effort.</li>
                             </ol>
                         </p>
                     </div>
                 </section>
+                <img className="project-image-lg" src={Novuum1} />
             </div>
         </body>
     </html>
