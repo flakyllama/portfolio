@@ -10,14 +10,18 @@ $light-grey: #eaeaea;
 $off-white: #f3f3f3;
 
 /* Primary */
-$blue: #2597f4;
+$blue: #0d8bf2;
 $blue-tint: rgba(37, 151, 244, 0.1);
 $dark-blue: #0b76da;
 
 /* Secondary */
 $purple: #7638fa;
 
-// Status
-//----------------------------------------
+/* Applications */
+.text-highlight {
+  color: $blue;
+}
 
-$highlight: $blue;
+.dot-colored {
+  color: $blue;
+}

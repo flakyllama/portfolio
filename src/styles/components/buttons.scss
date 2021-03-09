@@ -50,3 +50,38 @@
     transform: scale(0.85);
   }
 }
+
+// Miscellaneous buttons
+//----------------------------------------
+
+.btn-misc-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 99;
+  bottom: 24px;
+  right: 24px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50%;
+  padding: 16px;
+  background-color: $light-grey;
+
+  .btn-misc-top-arrow {
+    margin: 0 auto;
+    height: 24px;
+  }
+
+  &:hover {
+    background-color: $blue;
+
+    .btn-misc-top-arrow {
+      filter: brightness(0) invert(1);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  &:active {
+    transform: scale(0.85);
+  }
+}

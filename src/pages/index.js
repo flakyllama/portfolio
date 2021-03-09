@@ -42,7 +42,7 @@ const Landing = () => (
                 <h1 className="landing-project-title">Novuum</h1>
                 <p className="landing-project-body">Exploring how Canadians can register charities more efficiently.</p>
                 <a className="landing-project-link">
-                  <p className="landing-project-link-text">Learn more</p>
+                  <p className="landing-project-link_text">Learn more</p>
                   <img className="landing-project-link-arrow" src={ArrowRight} alt="right arrow" />
                 </a>
               </div>
