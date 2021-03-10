@@ -88,9 +88,9 @@
       margin-bottom: 24px;
 
       .project-section-label {
-        margin-bottom: 8px;
+        margin-bottom: 12px;
         text-transform: uppercase;
-        color: $blue;
+        color: $purple;
       }
 
       .project-section-title {
@@ -99,16 +99,14 @@
     }
 
     .project-section-text {
-      margin-bottom: 120px;
-
       .project-section-text-body {
         margin-bottom: 0px;
+      }
 
-        .project-section-text-subheading {
-          margin-top: 32px;
-          margin-bottom: 20px;
-          color: $blue;
-        }
+      .project-section-text-subheading {
+        margin-top: 32px;
+        margin-bottom: 20px;
+        color: $blue;
       }
     }
   }

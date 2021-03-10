@@ -9,7 +9,7 @@
 .divider-horizontal-lg {
   margin: 0 auto 120px auto;
   border-radius: 20px;
-  width: 1080px;
+  width: 3200px;
   height: 1.5px;
   background-color: $dark-grey;
 }
@@ -19,9 +19,7 @@
 
 .project-image-lg {
   display: block;
-  opacity: 1;
-  transition: opacity 0.5s; //Add listener
-  margin: 0 auto 120px auto;
+  margin: 80px auto 80px auto;
   border-radius: 16px;
   max-width: 1120px;
   max-height: 840px;

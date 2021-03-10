@@ -6,13 +6,14 @@ import Footer from '../components/footer.js'
 import InlineLink from '../components/inlinelink.js'
 import ArrowRight from '../images/icons/arrow-right.svg'
 import ArrowUp from '../images/icons/arrow-up.svg'
-import Novuum1 from '../images/projects/novuum/Novuum-1.png'
+import Novuum1 from '../images/projects/novuum/novuum-1.png'
 
 // Project page
 
 const ProjectPage = () => (
     <html>
         <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <meta charset="UTF-8" />
         </head>
         <body>
@@ -81,10 +82,10 @@ const ProjectPage = () => (
                     </div>
                 </section>
                 <div className="divider-horizontal-lg" />
-                <section id="the-problem" className="project-content">
+                <section className="project-content">
                     <div className="project-section-details">
                         <p className="project-section-label s1">
-                            The problem
+                            The context
                         </p>
                         <h3 className="project-section-title">
                             Old Conclusions
@@ -107,40 +108,35 @@ const ProjectPage = () => (
                     </div>
                 </section>
                 <img className="project-image-lg" src={Novuum1} />
-                <section id="the-challenge" className="project-content">
+                <section className="project-content">
                     <div className="project-section-details">
                         <p className="project-section-label s1">
                             The challenge
                         </p>
                         <h3 className="project-section-title">
-                            New Beginnings
-                        </h3>
-                    </div>
-                    <div className="project-section-text mgb-80">
-                        <p className="project-section-text-body">
-                            Revamping the entire registration process for charities would have been an impossible endeavor. As with most projects, the problem 
-                            scope had to be small enough to investigate with minimal effort yet provide maximal impact when addressed. 
-                        </p>
-                    </div>
-                    <div className="project-section-details">
-                        <p className="project-section-label s1">
-                            The process
-                        </p>
-                        <h3 className="project-section-title">
-                            Defining objectives and constraints
+                            Defining constraints
                         </h3>
                     </div>
                     <div className="project-section-text">
                         <p className="project-section-text-body">
-                            Filler text
+                            Revamping the entire registration process for charities would have been an impossible endeavor. As with most projects, the problem 
+                            scope had to be small enough to investigate with minimal effort yet provide maximal impact when addressed. 
+                            <br />
+                            <br />
+                            I had to prioritize my time, the business impact of the hypothetical changes, and the practicality of deploying them. They became the 
+                            environmental constraints that I would use to guide my process. 
+                            <br />
+                            <br />
+                            Regardless of how much the data might point toward a particular problem in the system, I had to assess its approachability and move 
+                            onto the next issue if it was too large to tackle.
                         </p>
                     </div>
                 </section>
                 <img className="project-image-lg" src={Novuum1} />
-                <section id="gathering data" className="project-content">
+                <section className="project-content">
                     <div className="project-section-details">
                         <p className="project-section-label s1">
-                            Gathering data
+                            Research Framework
                         </p>
                         <h3 className="project-section-title">
                             Identifying assumptions
@@ -148,34 +144,86 @@ const ProjectPage = () => (
                     </div>
                     <div className="project-section-text mgb-80">
                         <p className="project-section-text-body">
+                            Since I didn't have the benefit of having a specific problem scoped out for me beforehand, I had to carry out an initial wave of 
+                            exploratory research. My goal was to understand all the different inefficiencies in the registration system and quickly isolate
+                            the subset that would give me "the best bang for my buck". 
+                            <br />
+                            <br />
                             Using a&nbsp; 
                             <InlineLink link="https://en.wikipedia.org/wiki/First_principle" link_text="First Principles" destination="wikipedia.org"/> 
-                            &nbsp;approach, I broke down the assumed problem into an overarching null hypothesis.
+                            &nbsp;approach, I first created a null hypothesis to capture the ideal state.
                             <blockquote className="project-section-text-blockquote">
                                 “Prospective founders need to register their charities to conduct critical operations in Canada and can do so without facing any challenges in 
                                 the entire registration process from start to finish.”
                             </blockquote>
                             The core statement was then further split into its root assumptions: 
                             <ul>
-                                <li>People know the difference between nonprofits and registered charities in Canada.</li>
-                                <li>They want to register a charity to receive benefits and distribute tax receipts.</li>
+                                <li>People can successfully create a registered charity with minimal effort.</li>
                                 <li>They understand the requirements for registering a charity.</li>
-                                <li>They can successfully create a registered charity with minimal effort.</li>
+                                <li>They want to register a charity to receive benefits and distribute tax receipts.</li>
+                                <li>They know the difference between nonprofits and registered charities in Canada.</li>
                             </ul>
-                            <h6 className="project-section-text-subheading">
-                                Why use a hypothesis-based approach?
-                            </h6>
-                            Creating guiding statements provided me with direction for user research and enabled me to build performance indicators for assessing the current
-                            system and subsequent changes. Additionally, knowing the assumptions that I was dealing with would allow me to contain potentially risky ideas in different buckets and minimize 
-                            bias in my methods. 
-                            <br />
-                            <br />
-                            If I couldn't disprove my hypothesis by testing the root assumptions, I could feel more confident in the core concept.
                         </p>
                     </div>
                 </section>
                 <img className="project-image-lg" src={Novuum1} />
+                <section className="project-content">
+                    <div className="project-section-text mgb-80">
+                        <h6 className="project-section-text-subheading">
+                            Is that a priori or a posteriori in the sky?
+                        </h6>
+                        <p className="project-section-text-body">
+                            By dissecting the hypothesis into its "first principles", I suddenly had clarity over the assumptions I was dealing with. Isolating them even further
+                            provided me with a safety net. It enabled me to test each assumption individually and contain any crossover bias.
+                            <br />
+                            <br />
+                            Lastly, creating a null-hypothesis would help me control bias and force me to stress-test my initial problem scope that I then used to derive the 
+                            actual issue to tackle.
+                        </p>
+                        <h6 className="project-section-text-subheading">
+                            How do I know if the problem is universal?
+                        </h6>
+                        <p className="project-section-text-body">
+                            No good study is complete without an old-fashioned control group. Building a null-hypothesis would have been moot had I not equally valued vetting 
+                            research participants. 
+                            <br />
+                            <br />
+                            To ensure that I had statistical confidence in my tests, minimized any&nbsp;
+                            <InlineLink link="https://dictionary.apa.org/carryover-effects" link_text="carryover effects" destination="dictionary.apa.org" />
+                            &nbsp;and could replicate my assumptions, I split my research group into two sets:
+                            <ul>
+                                <li>Primary - Charity founders who had lived experience.</li>
+                                <li>Control - Individuals who knew absolutely nothing about charities and how to register them.</li>
+                            </ul> 
+                            <br />
+                            Further segmenting the groups based on personal attributes, such as age or gender, wasn't necessary since a hypothetical solution sould cover most 
+                            ensuing accessibility and usability concerns. More stringent experimental design would have compromised recruitment and as time was a constraint, the 
+                            proverbial cake could go without the icing.
+                        </p>
+                    </div>
+                    </section>
+                    <img className="project-image-lg" src={Novuum1} />
+                    <section className="project-content">
+                    <div className="project-section-details">
+                         <p className="project-section-label s1">
+                            Kicking off
+                        </p>
+                        <h3 className="project-section-title">
+                            New Beginnings
+                        </h3>
+                    </div>
+                    <div className="project-section-text mgb-80">
+                        <p className="project-section-text-body">
+                            Since I didn't have the benefit of having a specific problem scoped out for me beforehand, I had to carry out an initial wave of 
+                            exploratory research. My goal was to understand all the different inefficiencies in the registration system and quickly isolate
+                            the subset that would give me "the best bang for my buck". 
+                            <br />
+                            <br />
+                        </p>
+                    </div>
+                </section>
             </div>
+            <Footer />
         </body>
     </html>
 )
