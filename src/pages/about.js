@@ -30,17 +30,19 @@ const About = () => (
                                     , where I graduated from with a degree in Biology, along with specializations in Bioinformatics, Psychology and Entrepreneurship.</p>
                                 <p>Studying science taught me to be analytical and purposeful with my process and while it wasn't clear immediately, it also 
                                     introduced me to the world of design. Hours of learning about biological principles, such as&nbsp;
-                                    <InlineLink link="https://www.cracked.com/article_20368_the-6-coolest-survival-traits-designed-by-evolution.html" 
-                                    link_text="how evolution guides complexity" destination="cracked.com" />, led to an appreciation for design in its most natural form.</p>
-                                <p>As a product designer, I enjoy working at the intersection of ideation, design and engineering. I believe that designing for systems
-                                    holistically leads to great outcomes. Developing good product sense as a principle designer at both&nbsp; 
-                                    <InlineLink link="https://prospr.cc/" link_text="my startup" destination="prospr.cc" /> and my recent stint at&nbsp; 
-                                    <InlineLink link="https://vendorpm.com/" link_text="VendorPM" destination="vendorpm.com" /> has taught me how to properly balance 
-                                    business objectives and engineering constraints as I relentlessly champion the user.</p>
+                                    <InlineLink link="https://www.cracked.com/article_20368_the-6-coolest-survival-traits-designed-by-evolution.html" link_text="evolution guiding complexity" destination="cracked.com" />
+                                    , led to an appreciation for design in its most natural form.</p>
+                                <p>As a product designer, I aim to explore new technological frontiers and design for systems holistically, especially to create meaningful 
+                                    social impact. Developing good product sense as a principle designer at both&nbsp;
+                                    <InlineLink link="https://prospr.cc/" link_text="my startup" destination="prospr.cc" />
+                                    &nbsp;and my most recent work stint at&nbsp;
+                                    <InlineLink link="https://vendorpm.com/" link_text="VendorPM" destination="vendorpm.com" />
+                                    &nbsp;taught me how to do so.</p>
                                 <p>My eagerness for novelty also extends to my hobbies. In my free time, I like to read non-fiction, especially on history and 
-                                    anthropology. The past fascinates me, with books sharing the experiences of others throughout time. Watching films is my second 
-                                    love; I'd never pass on the opportunity to pick up popcorn and binge through a couple of movies. I also enjoy playing squash 
-                                    with friends and figuring out how my camera works.</p>
+                                    anthropology. Watching films is my second love; I'd never pass on the opportunity to binge through a couple of movies. 
+                                    You can also find me playing squash with friends,&nbsp; 
+                                    <InlineLink link="https://open.spotify.com/playlist/4Z7U56v1FHKHI5SdrNt3ji?si=tpr7ayTDTKC_w0Y1mtjHKg" link_text="jamming to post-rock tracks" destination="spotify.com"/>
+                                    , and trying to figure out how my camera works.</p>
                             </div>
                         </div>
                     </section>

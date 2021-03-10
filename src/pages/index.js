@@ -36,13 +36,19 @@ const Landing = () => (
           </div>
         </section>
         <section id="projects" className="landing-project-container">
-            <a id="project-a" className="landing-project-card" href="project">
+            <a id="project-a" className="landing-project-card" href="novuum">
               <div className="landing-project-description">
                 <img className="landing-project-icon-device" src={IconDesktop} />
-                <h1 className="landing-project-title">Novuum</h1>
-                <p className="landing-project-body">Exploring how Canadian non-profits can register for charitable status more efficiently.</p>
+                <h1 className="landing-project-title">
+                  Novuum
+                </h1>
+                <p className="landing-project-body">
+                  Exploring how Canadians can register charities more efficiently.
+                </p>
                 <a className="landing-project-link">
-                  <p className="landing-project-link-text">Learn more</p>
+                  <p className="landing-project-link_text">
+                    Learn more
+                  </p>
                   <img className="landing-project-link-arrow" src={ArrowRight} alt="right arrow" />
                 </a>
               </div>
@@ -50,12 +56,16 @@ const Landing = () => (
         </section>
         <section className="landing-contact-container">
           <p className="landing-contact-title d3 fadeInUp">Get in touch</p>
-          <p className="landing-contact-subheading">Feel free to reach out for collaborations or a quick chat - my inbox is always open. While 
-          I may not be an expert email juggler, I'll try my best to get back to you!</p>
-          <a className="btn-secondary" href="mailto:fardeen.h.chowdhury@gmail.com" target="_blank">Say Hello</a>
+          <p className="landing-contact-subheading">
+            Feel free to reach out for collaborations or a quick chat - my inbox is always open. While I may not be an expert email juggler, 
+            I'll try my best to get back to you!
+          </p>
+          <a className="btn-secondary" href="mailto:fardeen.h.chowdhury@gmail.com" target="_blank">
+            Say Hello
+          </a>
         </section>
-        <Footer />
       </div>
+      <Footer />
     </body>
   </html>
 )
