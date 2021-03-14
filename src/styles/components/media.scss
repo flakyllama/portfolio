@@ -1,0 +1,135 @@
+// Images
+//----------------------------------------
+
+.hero-image {
+  margin: 80px auto;
+  border-radius: 16px;
+  height: 520px;
+  width: 960px;
+}
+
+.project-image-lg {
+  display: block;
+  margin: 80px auto 80px auto;
+  border-radius: 16px;
+  max-width: 1120px;
+  max-height: 840px;
+}
+
+// Elements - Animations
+//----------------------------------------
+
+@keyframes animate-elements-impact-rect-first {
+  0%,
+  20%,
+  80%,
+  100% {
+    height: 8px;
+  }
+  50% {
+    height: 32px;
+  }
+}
+
+@keyframes animate-elements-impact-rect-second {
+  0%,
+  20%,
+  80%,
+  100% {
+    height: 16px;
+  }
+  50% {
+    height: 48px;
+  }
+}
+@keyframes animate-elements-impact-rect-third {
+  0%,
+  20%,
+  80%,
+  100% {
+    height: 24px;
+  }
+  50% {
+    height: 60px;
+  }
+}
+
+@keyframes animate-elements-impact-arrow {
+  0%,
+  20%,
+  80%,
+  100% {
+    transform: translate(41px, 88px);
+  }
+  50% {
+    transform: translate(94px, 110px);
+  }
+}
+
+// Elements - structure
+//----------------------------------------
+
+.elements-container {
+  display: flex;
+  flex-direction: row;
+  margin: 80px auto 80px auto;
+  max-width: 800px;
+}
+
+.elements-wrapper {
+  padding: 0 20px 0 20px;
+
+  .elements {
+    width: 180px;
+    height: 180px;
+  }
+
+  #elements-impact {
+    // Flip elements to have the same y-start for bars, adjust all translations accordingly
+    transform: scaleY(-1);
+
+    &:hover {
+      .elements-impact-bg {
+        fill: $blue-tint2;
+      }
+    }
+
+    .elements-impact-bg {
+      transition: all ease-in-out 0.2s;
+      fill: $blue-tint1;
+    }
+
+    .elements-impact-rect {
+      width: 26px;
+      fill: $blue;
+    }
+
+    .order-first {
+      animation: animate-elements-impact-rect-first 3.5s ease-in-out infinite;
+      transform-origin: center;
+      opacity: 0.6;
+      height: 8px;
+    }
+
+    .order-second {
+      animation: animate-elements-impact-rect-second 3.5s ease-in-out infinite;
+      transform-origin: center;
+      opacity: 0.8;
+      height: 16px;
+    }
+
+    .order-third {
+      animation: animate-elements-impact-rect-third 3.5s ease-in-out infinite;
+      transform-origin: center;
+      opacity: 1;
+      height: 24px;
+    }
+
+    .elements-impact-arrow {
+      animation: animate-elements-impact-arrow 3.5s ease-in-out infinite;
+      transform-origin: center;
+      transform: translate(41px, 88px);
+      fill: $blue;
+    }
+  }
+}

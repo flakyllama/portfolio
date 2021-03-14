@@ -1,0 +1,17 @@
+@import '../components/buttons';
+@import '../components/footer';
+@import '../components/links';
+@import '../components/media';
+@import '../components/navbar';
+@import '../components/progressbar';
+
+// Dividers
+//----------------------------------------
+
+.divider-horizontal-lg {
+  margin: 0 auto 120px auto;
+  border-radius: 20px;
+  width: 3200px;
+  height: 1.5px;
+  background-color: $dark-grey;
+}
