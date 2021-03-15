@@ -8,8 +8,8 @@ import InlineLink from '../components/inlinelink.js'
 
 const About = () => (
  <>
-  <ScrollTop />
   <NavBar />
+  <ScrollTop />
   <div className="about-container">
     <section className="about-hero">
       <div className="hero-image about-hero-image fadeInUp" />

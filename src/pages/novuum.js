@@ -1,33 +1,13 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import '../styles/global.scss'
 import '../styles/novuum.scss'
 import NavBar from '../components/navbar.js'
 import ScrollTop from '../components/btntop.js'
+import { ElementsTime, ElementsImpact, ElementsPractical } from '../components/elements.js'
 import Footer from '../components/footer.js'
 import InlineLink from '../components/inlinelink.js'
 import ArrowRight from '../images/icons/arrow-right.svg'
 import Novuum1 from '../images/projects/novuum/novuum-1.png'
-
-// Elements
-//------------------------------------------------------------------------------------------------------------------------
-
-const ElementsImpact = () => {
-  return (
-    <div className="elements-wrapper">
-      <svg id="elements-impact" className="elements" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle className="elements-impact-bg" cx="90" cy="90" r="90" />
-        <rect className="elements-impact-rect order-first" x="45" y="45" rx="2" />
-        <rect className="elements-impact-rect order-second" x="77" y="45" rx="2" />
-        <rect className="elements-impact-rect order-third" x="109" y="45" rx="2" />
-        <path className="elements-impact-arrow" fill-rule="evenodd" clip-rule="evenodd" d="M14.8931 32.025L30.887 
-        25.4001C32.9285 24.5545 33.8976 22.2136 33.0512 20.1724L26.4204 4.18235C25.5672 2.12479 22.6521 2.12619 
-        21.8009 4.18456L19.1002 10.7148C18.9521 11.073 18.5415 11.2432 18.1834 11.0949L10.3241 7.83945C7.50483 
-        6.67168 4.27271 8.01047 3.10493 10.8297C1.93716 13.649 3.27595 16.8811 6.0952 18.0489L14.111 21.3691C14.3828 
-        21.4817 14.5118 21.7932 14.3993 22.065L11.6267 28.7586C10.7743 30.8163 12.8353 32.8774 14.8931 32.025Z" />
-      </svg>
-    </div>
-  )
-}
 
 // Page
 //------------------------------------------------------------------------------------------------------------------------
@@ -147,7 +127,9 @@ const Novuum = () => (
           </div>
         </section>
         <div className="elements-container">
+          <ElementsTime />
           <ElementsImpact />
+          <ElementsPractical />
         </div>
         <section className="project-content">
           <div className="project-section-details">
