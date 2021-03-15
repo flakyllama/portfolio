@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/index.scss'
-import ScrollTop from '../components/btnTop.js'
+import ScrollTop from '../components/btntop.js'
 import Footer from '../components/footer.js'
 import CanadianFlag from '../images/emojis/flag-canadian.svg'
 import ArrowRight from '../images/icons/arrow-right.svg'
@@ -15,9 +15,8 @@ const Landing = () => (
         <h6 className="landing-hero-subheading fadeInUp">
           Digital product designer <span className="slash-blend">/</span> Serial
           reader&nbsp;
-          <span className="slash-blend">/</span> Film aficionado{' '}
-          <span className="slash-blend">/</span>
-          Tea drinker
+          <span className="slash-blend">/</span>&nbsp;Film aficionado&nbsp;
+          <span className="slash-blend">/</span>&nbsp;Tea drinker
           <br />
           Currently designing at VendorPM in Toronto{' '}
           <img className="emoji-flag" src={CanadianFlag} />

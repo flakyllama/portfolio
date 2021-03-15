@@ -1,8 +1,8 @@
 @import 'fonts/fonts';
 @import 'modules/animations';
+@import 'modules/components';
 @import 'modules/variables';
 @import 'modules/type';
-@import 'components';
 
 html {
   scroll-behavior: smooth;
@@ -25,13 +25,6 @@ a {
 
 p {
   margin: 0 auto 32px auto;
-}
-
-.hero-image {
-  margin: 80px auto;
-  border-radius: 16px;
-  height: 520px;
-  width: 960px;
 }
 
 .dot-colored {
