@@ -71,13 +71,21 @@
 /* Practical */
 
 @keyframes rotation {
-  from {transform: rotate(0deg);}
-  to   {transform: rotate(359deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 @keyframes counter-rotation {
-  from {transform: rotate(359deg);}
-  to   {transform: rotate(0deg);}
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
 
 // Elements - structure
@@ -176,21 +184,22 @@
   }
 
   .elements-practical-gears {
+    overflow: visible;
     stroke: $blue;
-    stroke-width: 2;
+    stroke-width: 2.5;
     stroke-linecap: round;
     stroke-linejoin: round;
     fill: none;
 
     .elements-practical-gears-outer {
       transform-origin: center;
-      stroke-width: 2.5;
+      stroke-width: 3;
     }
   }
 
   #big-gear {
     .elements-practical-gears-outer {
-      animation: counter-rotation 3.5s ease infinite;
+      animation: counter-rotation 3.5s ease-in-out infinite;
     }
   }
   
@@ -198,7 +207,7 @@
     opacity: 0.8;
 
     .elements-practical-gears-outer {
-      animation: rotation 3.5s ease infinite;
+      animation: rotation 3.5s ease-in-out infinite;
     }
   }
 }

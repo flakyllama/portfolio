@@ -82,7 +82,7 @@ const Landing = () => (
           href="mailto:fardeen.h.chowdhury@gmail.com"
           target="_blank"
         >
-          Say Hello
+          Say hello
         </a>
       </section>
     </div>
