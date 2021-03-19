@@ -6,6 +6,11 @@ const ElementsTime = () => {
         <div className="elements-wrapper">
         <svg id="elements-time" className="elements" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle className="elements-time-bg" cx="90" cy="90" r="90" />
+            <svg width="96" height="96" x="42" y="42" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path className="elements-time-outer" d="M48 88C70.0914 88 88 70.0914 88 48C88 25.9086 70.0914 8 48 8C25.9086 8 8 25.9086 8 48C8 70.0914 25.9086 88 48 88Z" />
+                <rect className="elements-time-hand-fixed" x="46" y="50" width="24" height="4" rx="2"/>
+                <rect className="elements-time-hand-moving" x="47.5" y="45.4399" width="24" height="4" rx="2" />
+            </svg>
         </svg>
         </div>
     )

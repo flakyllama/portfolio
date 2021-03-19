@@ -142,8 +142,7 @@ const Novuum = () => (
               out for me beforehand, I had to carry out an initial wave of
               exploratory research. My goal was to understand all the different
               inefficiencies in the registration system and quickly isolate the
-              subset that would give me "the best bang for my buck" when it was 
-              addressed.
+              subset that would give me "the best bang for my buck" when addressed.
               <br />
               <br />
               Using a&nbsp;
