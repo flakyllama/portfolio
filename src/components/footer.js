@@ -6,10 +6,14 @@ import '../styles/global.scss'
 const Footer = () => {
     return(
         <footer className="footer">
-            <p className="footer-credits">Designed and built by Fardeen Chowdhury
-                <br />
-                <span role="img" aria-label="tea">🍵</span> 200 cups of tea were sacrificed in the making of this site
-            </p>
+            <div className="footer-credits">
+                <p className="caption">Hand crafted with care
+                    <span role="img" aria-label="heart">💖</span>
+                </p>
+                <p className="caption">200 cups of tea were sacrificed in the making of this site
+                    <span role="img" aria-label="tea">🍵</span>
+                </p>
+            </div>
         </footer>
     )
 }
