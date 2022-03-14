@@ -3,6 +3,7 @@ import '../styles/index.scss'
 import ScrollTop from '../components/btntop.js'
 import Footer from '../components/footer.js'
 import CanadianFlag from '../images/emojis/flag-canadian.svg'
+import SobolLogo from '../images/sobol-logo.svg'
 import ArrowRight from '../images/icons/arrow-right.svg'
 import IconDesktop from '../images/icons/desktop.png'
 
@@ -18,15 +19,28 @@ const Landing = () => (
             <img className="emoji-flag" src={CanadianFlag} />
           </h2>
         </div>
+        <div className="landing-hero-current-pos">
+          <div className="gradient-wrapper">
+            <div className="landing-hero-current-pos-inner">
+              <div className="img-wrapper">
+                <img className="company-avatar" src={SobolLogo} />
+              </div>
+              <div className="pos-details">
+                <span className="s1">Currently designing at Sobol | Consensys</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*
         <div className="landing-hero-btn-list fadeInUp">
           <a className="btn-primary" href="about" target="_top">
             Learn more about me
           </a>
-          {/* <a className="btn-secondary" target="_blank">
+          <a className="btn-secondary" target="_blank">
             View resume
           </a>
-          */}
         </div>
+        */}
         <div className="landing-scroll fadeIn">
           <a
             className="landing-scroll-link"
