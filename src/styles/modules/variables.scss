@@ -1,33 +1,39 @@
 // Colors
-//----------------------------------------
+//----------------------------------------\
+
+/* Base */
+$black: #000;
+$white: #fff;
 
 /* Neutrals */
-$black: #1c1c1c;
-$dark-black: #080808;
-$dark-grey: #3e3e3e;
-$grey: #747474;
-$light-grey: #eaeaea;
-$off-white: #f3f3f3;
+$neutral-1: #f5f6f6;
+$neutral-2: #e5e8ea;
+$neutral-9: #7d8b95;
+$neutral-11: #66737c;
+$neutral-15: #3b4349;
+$neutral-17: #282d31;
+$neutral-20: #090a0b;
 
 /* Primary */
-$blue: #008cff;
-$blue-tint1: rgba(0, 140, 255, 0.15);
-$blue-tint2: rgba(0, 140, 255, 0.20);
-$dark-blue: #007ee5;
+$blue-1: #0fa3ff;
+$blue-2: #0099ff;
+$blue-3: #008cf0;
+$blue-tint-1: rgba(0, 153, 255, 0.1);
+$blue-tint-2: rgba(0, 153, 255, 0.2);
 
 /* Secondary */
 $purple: #a64cff;
 
 /* Auxiliary */
-$pink: #E500E5;
-$green: #00CC88;
-$orange: #FF7233;
+$pink: #e500e5;
+$green: #00cc88;
+$orange: #ff7233;
 
 /* Applications */
 .text-highlight {
-  color: $blue;
+  color: $blue-2;
 }
 
 .dot-colored {
-  color: $blue;
+  color: $blue-2;
 }

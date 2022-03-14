@@ -10,9 +10,9 @@ html {
 
 body {
   margin: 0;
-  background-color: $dark-black;
-  font-family: 'Metropolis', sans-serif;
-  color: $light-grey;
+  background-color: $neutral-20;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: $white;
   // overflow-y: scroll;
   // height: 100vh;
 }
@@ -20,7 +20,7 @@ body {
 a {
   display: inline;
   text-decoration: none;
-  color: $light-grey;
+  color: $neutral-2;
 }
 
 p {
@@ -28,7 +28,7 @@ p {
 }
 
 .dot-colored {
-  color: $blue;
+  color: $blue-2;
 }
 
 .mgb-80 {

@@ -1,163 +1,173 @@
-// Metropolis
-//----------------------------------------  
+// Plus Jakarta Sans
+//----------------------------------------
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Thin'), local('Metropolis-Thin'),
-      url('/Metropolis-Thin.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Thin'), local('PlusJakartaSans-Thin'),
+    url('/PlusJakartaSans-Thin.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Thin Italic'), local('Metropolis-ThinItalic'),
-      url('/Metropolis-ThinItalic.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Thin Italic'),
+    local('PlusJakartaSans-ThinItalic'),
+    url('/PlusJakartaSans-ThinItalic.ttf') format('truetype');
   font-weight: 100;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Extra Light'), local('Metropolis-ExtraLight'),
-      url('/Metropolis-ExtraLight.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Extra Light'),
+    local('PlusJakartaSans-ExtraLight'),
+    url('/PlusJakartaSans-ExtraLight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Extra Light Italic'), local('Metropolis-ExtraLightItalic'),
-      url('/Metropolis-ExtraLightItalic.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Extra Light Italic'),
+    local('PlusJakartaSans-ExtraLightItalic'),
+    url('/PlusJakartaSans-ExtraLightItalic.ttf') format('truetype');
   font-weight: 200;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Light'), local('Metropolis-Light'),
-      url('/Metropolis-Light.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Light'), local('PlusJakartaSans-Light'),
+    url('/PlusJakartaSans-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Light Italic'), local('Metropolis-LightItalic'),
-      url('/Metropolis-LightItalic.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Light Italic'),
+    local('PlusJakartaSans-LightItalic'),
+    url('/PlusJakartaSans-LightItalic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Regular'), local('Metropolis-Regular'),
-      url('/Metropolis-Regular.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Regular'), local('PlusJakartaSans-Regular'),
+    url('/PlusJakartaSans-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Regular Italic'), local('Metropolis-RegularItalic'),
-      url('/Metropolis-RegularItalic.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Regular Italic'),
+    local('PlusJakartaSans-RegularItalic'),
+    url('/PlusJakartaSans-RegularItalic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Medium'), local('Metropolis-Medium'),
-      url('/Metropolis-Medium.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Medium'), local('PlusJakartaSans-Medium'),
+    url('/PlusJakartaSans-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Medium Italic'), local('Metropolis-MediumItalic'),
-      url('/Metropolis-MediumItalic.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Medium Italic'),
+    local('PlusJakartaSans-MediumItalic'),
+    url('/PlusJakartaSans-MediumItalic.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Semi Bold'), local('Metropolis-SemiBold'),
-      url('/Metropolis-SemiBold.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Semi Bold'), local('PlusJakartaSans-SemiBold'),
+    url('/PlusJakartaSans-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Semi Bold Italic'), local('Metropolis-SemiBoldItalic'),
-      url('/Metropolis-SemiBoldItalic.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Semi Bold Italic'),
+    local('PlusJakartaSans-SemiBoldItalic'),
+    url('/PlusJakartaSans-SemiBoldItalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Bold'), local('Metropolis-Bold'),
-      url('/Metropolis-Bold.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Bold'), local('PlusJakartaSans-Bold'),
+    url('/PlusJakartaSans-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Bold Italic'), local('Metropolis-BoldItalic'),
-      url('/Metropolis-BoldItalic.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Bold Italic'),
+    local('PlusJakartaSans-BoldItalic'),
+    url('/PlusJakartaSans-BoldItalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Extra Bold'), local('Metropolis-ExtraBold'),
-      url('/Metropolis-ExtraBold.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Extra Bold'), local('PlusJakartaSans-ExtraBold'),
+    url('/PlusJakartaSans-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Extra Bold Italic'), local('Metropolis-ExtraBoldItalic'),
-      url('/Metropolis-ExtraBoldItalic.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Extra Bold Italic'),
+    local('PlusJakartaSans-ExtraBoldItalic'),
+    url('/PlusJakartaSans-ExtraBoldItalic.ttf') format('truetype');
   font-weight: 800;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Black'), local('Metropolis-Black'),
-      url('/Metropolis-Black.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Black'), local('PlusJakartaSans-Black'),
+    url('/PlusJakartaSans-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis Black Italic'), local('Metropolis-BlackItalic'),
-      url('/Metropolis-BlackItalic.ttf') format('truetype');
+  font-family: 'Plus Jakarta Sans';
+  src: local('Plus Jakarta Sans Black Italic'),
+    local('PlusJakartaSans-BlackItalic'),
+    url('/PlusJakartaSans-BlackItalic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
   font-display: swap;

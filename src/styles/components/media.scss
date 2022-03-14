@@ -110,31 +110,29 @@
 #elements-time {
   &:hover {
     .elements-time-bg {
-      fill: $blue-tint2;
+      fill: $blue-tint-2;
     }
   }
 
   .elements-time-bg {
     transition: all ease-in-out 0.2s;
-    fill: $blue-tint1;
+    fill: $blue-tint-1;
   }
 
   .elements-time-outer {
-    stroke: $blue;
+    stroke: $blue-2;
     stroke-width: 4;
     stroke-linecap: round;
     stroke-linejoin: round;
   }
 
   .elements-time-hand-fixed {
-    transform: rotate(-90 46 50);
-    fill: $blue;
+    opacity: 0.6;
+    fill: $blue-2;
   }
 
   .elements-time-hand-moving {
-    opacity: 0.6;
-    transform: rotate(30 47.5 45.4399);
-    fill: $blue;
+    fill: $blue-2;
   }
 }
 
@@ -144,18 +142,18 @@
 
   &:hover {
     .elements-impact-bg {
-      fill: $blue-tint2;
+      fill: $blue-tint-2;
     }
   }
 
   .elements-impact-bg {
     transition: all ease-in-out 0.2s;
-    fill: $blue-tint1;
+    fill: $blue-tint-1;
   }
 
   .elements-impact-rect {
     width: 26px;
-    fill: $blue;
+    fill: $blue-2;
   }
 
   .order-first {
@@ -183,25 +181,25 @@
     animation: animate-elements-impact-arrow 3.5s ease-in-out infinite;
     transform-origin: center;
     transform: translate(41px, 88px);
-    fill: $blue;
+    fill: $blue-2;
   }
 }
 
 #elements-practical {
   &:hover {
     .elements-practical-bg {
-      fill: $blue-tint2;
+      fill: $blue-tint-2;
     }
   }
 
   .elements-practical-bg {
     transition: all ease-in-out 0.2s;
-    fill: $blue-tint1;
+    fill: $blue-tint-1;
   }
 
   .elements-practical-gears {
     overflow: visible;
-    stroke: $blue;
+    stroke: $blue-2;
     stroke-width: 2.5;
     stroke-linecap: round;
     stroke-linejoin: round;
