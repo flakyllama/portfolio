@@ -11,23 +11,21 @@ const Landing = () => (
     <ScrollTop />
     <div className="landing-container">
       <section className="landing-hero">
-        <p className="landing-hero-title d1 fadeInUp">Fardeen Chowdhury</p>
-        <h6 className="landing-hero-subheading fadeInUp">
-          Digital product designer <span className="slash-blend">/</span> Serial
-          reader&nbsp;
-          <span className="slash-blend">/</span>&nbsp;Film aficionado&nbsp;
-          <span className="slash-blend">/</span>&nbsp;Tea drinker
-          <br />
-          Currently designing at VendorPM in Toronto{' '}
-          <img className="emoji-flag" src={CanadianFlag} />
-        </h6>
+        <h4 className="landing-hero-title fadeInUp">Fardeen Chowdhury</h4>
+        <div className="landing-hero-subheading">
+          <h2 className="landing-hero-description fadeInUp">
+            I'm a digital product designer from Toronto{' '}
+            <img className="emoji-flag" src={CanadianFlag} />
+          </h2>
+        </div>
         <div className="landing-hero-btn-list fadeInUp">
           <a className="btn-primary" href="about" target="_top">
             Learn more about me
           </a>
-          <a className="btn-secondary" target="_blank">
+          {/* <a className="btn-secondary" target="_blank">
             View resume
           </a>
+          */}
         </div>
         <div className="landing-scroll fadeIn">
           <a

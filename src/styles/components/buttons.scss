@@ -7,23 +7,23 @@
   display: flex;
   align-items: center;
   transition: all 0.2s ease-in-out;
-  border-radius: 6px;
-  padding: 12px 24px;
-  background-color: white;
+  border-radius: 8px;
+  padding: 12px 20px;
+  background-color: $white;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   font-weight: 500;
   text-decoration: none;
-  color: $black;
+  color: $neutral-20;
 
   &:hover {
-    color: $off-white;
-    background-color: $blue;
+    color: $neutral-20;
+    background-color: $neutral-2;
   }
 
   // Tactile interaction on click
   &:active {
-    transform: scale(0.85);
+    transform: scale(0.9);
   }
 }
 
@@ -34,22 +34,22 @@
   display: flex;
   align-items: center;
   transition: all 0.2s ease-in-out;
-  border: 2px solid $blue;
-  border-radius: 6px;
-  padding: 12px 24px;
+  border: 2px solid $blue-2;
+  border-radius: 8px;
+  padding: 12px 20px;
   background-color: none;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   font-weight: 500;
   text-decoration: none;
-  color: $blue;
+  color: $blue-2;
 
   &:hover {
-    background-color: $blue-tint1;
+    background-color: $blue-tint-1;
   }
 
   &:active {
-    transform: scale(0.85);
+    transform: scale(0.9);
   }
 }
 
@@ -68,7 +68,7 @@
   transition: all 0.3s ease-in-out;
   border-radius: 50%;
   padding: 16px;
-  background-color: $light-grey;
+  background-color: $neutral-2;
 
   &.visible {
     transform: scale(1);
@@ -80,7 +80,7 @@
   }
 
   &:hover {
-    background-color: $blue;
+    background-color: $blue-2;
 
     .btn-misc-top-arrow {
       filter: brightness(0) invert(1);
@@ -89,6 +89,6 @@
   }
 
   &:active {
-    transform: scale(0.85);
+    transform: scale(0.9);
   }
 }

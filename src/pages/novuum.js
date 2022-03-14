@@ -115,8 +115,8 @@ const Novuum = () => (
               provide maximal impact when addressed.
               <br />
               <br />
-              I had to prioritize my time, the business impact of the hypothetical
-              changes, and the practicality of deploying them. They became the
+              I had to prioritize my time, the business impact of any changes 
+              made, and the practicality of deploying them. They were the 
               environmental constraints that I would use to guide my process.
               <br />
               <br />
@@ -142,8 +142,7 @@ const Novuum = () => (
               out for me beforehand, I had to carry out an initial wave of
               exploratory research. My goal was to understand all the different
               inefficiencies in the registration system and quickly isolate the
-              subset that would give me "the best bang for my buck" when it was 
-              addressed.
+              subset that would give me "the best bang for my buck" when addressed.
               <br />
               <br />
               Using a&nbsp;
