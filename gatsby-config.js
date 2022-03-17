@@ -7,8 +7,8 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-  `gatsby-plugin-sass`, 
-  `gatsby-transformer-sharp`, 
-  `gatsby-plugin-sharp`
-],
+    `gatsby-plugin-sass`, 
+    `gatsby-transformer-sharp`, 
+    `gatsby-plugin-sharp`
+  ],
 }
