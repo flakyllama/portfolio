@@ -61,7 +61,7 @@
       -webkit-transition: all 0.33s;
       transition: all 0.33s;
       white-space: nowrap;
-      color: $neutral-11;
+      color: #575757;
 
       &::before {
         content: '';
@@ -74,7 +74,7 @@
         pointer-events: none;
         width: 1000px;
         height: 32px;
-        background-color: $black;
+        background-color: $neutral-20;
       }
     }
   }

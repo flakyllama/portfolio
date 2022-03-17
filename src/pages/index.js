@@ -11,10 +11,10 @@ const Landing = () => (
   <>
     <ScrollTop />
     <div className="landing-container">
-      <section className="landing-hero fadeInUp">
-        <h4 className="landing-hero-title">Fardeen Chowdhury</h4>
+      <section className="landing-hero">
+        <h4 className="landing-hero-title fadeInUp">Fardeen Chowdhury</h4>
         <div className="landing-hero-subheading">
-          <h2 className="landing-hero-description">
+          <h2 className="landing-hero-description fadeInUp">
             I'm a digital product designer from Toronto{' '}
             <img className="emoji-flag" src={CanadianFlag} />
           </h2>
@@ -26,9 +26,7 @@ const Landing = () => (
                 <img className="company-avatar" src={SobolLogo} />
               </div>
               <div className="pos-details">
-                <span className="s1">Currently designing at Sobol 
-                  <span className="muted">&nbsp;(Consensys)</span>
-                </span>
+                <span className="s1">Currently designing at Sobol | Consensys</span>
               </div>
             </div>
           </div>
@@ -43,7 +41,7 @@ const Landing = () => (
           </a>
         </div>
         */}
-        <div className="landing-scroll">
+        <div className="landing-scroll fadeIn">
           <a
             className="landing-scroll-link"
             href="#projects"

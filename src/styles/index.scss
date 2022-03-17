@@ -66,7 +66,7 @@
           align-items: center;
           border-radius: 10px;
           padding: 12px 16px;
-          background: $black;
+          background: $neutral-20;
 
           .img-wrapper {
             margin-right: 12px;
@@ -82,10 +82,6 @@
 
           .pos-details {
             text-transform: capitalize;
-
-            .muted {
-              color: $neutral-9;
-            }
           }
         }
       }
